@@ -1,0 +1,219 @@
+{
+  "id": 0,
+  "resourcePackages": [
+    {
+      "resourcePackage": {
+        "name": "SharedResources",
+        "type": 2,
+        "items": [
+          {
+            "type": 202,
+            "path": "BaseThemes/CY18SU04.json",
+            "name": "CY18SU04"
+          }
+        ]
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": 0,
+      "name": "ReportSection",
+      "displayName": "Page 1",
+      "filters": {
+        "__powerbi-vcs-embedded-json__": []
+      },
+      "ordinal": 0,
+      "visualContainers": [
+        {
+          "x": 542.4657534246575,
+          "y": 23.95303326810176,
+          "z": 0,
+          "width": 349.43248532289624,
+          "height": 194.4422700587084,
+          "config": {
+            "__powerbi-vcs-embedded-json__": {
+              "name": "4f1cb754a17bb7ccf52e",
+              "layouts": [
+                {
+                  "id": 0,
+                  "position": {
+                    "x": 542.4657534246575,
+                    "y": 23.95303326810176,
+                    "z": 0,
+                    "width": 349.43248532289624,
+                    "height": 194.4422700587084
+                  }
+                }
+              ],
+              "singleVisual": {
+                "visualType": "pivotTable",
+                "projections": {
+                  "Values": [
+                    {
+                      "queryRef": "Sum(Table1.Column1)"
+                    }
+                  ]
+                },
+                "prototypeQuery": {
+                  "Version": 2,
+                  "From": [
+                    {
+                      "Name": "t",
+                      "Entity": "Table1"
+                    }
+                  ],
+                  "Select": [
+                    {
+                      "Aggregation": {
+                        "Expression": {
+                          "Column": {
+                            "Expression": {
+                              "SourceRef": {
+                                "Source": "t"
+                              }
+                            },
+                            "Property": "Column1"
+                          }
+                        },
+                        "Function": 0
+                      },
+                      "Name": "Sum(Table1.Column1)"
+                    }
+                  ]
+                },
+                "drillFilterOtherVisuals": true
+              }
+            }
+          },
+          "filters": {
+            "__powerbi-vcs-embedded-json__": []
+          },
+          "query": {
+            "__powerbi-vcs-embedded-json__": {
+              "Commands": [
+                {
+                  "SemanticQueryDataShapeCommand": {
+                    "Query": {
+                      "Version": 2,
+                      "From": [
+                        {
+                          "Name": "t",
+                          "Entity": "Table1"
+                        }
+                      ],
+                      "Select": [
+                        {
+                          "Aggregation": {
+                            "Expression": {
+                              "Column": {
+                                "Expression": {
+                                  "SourceRef": {
+                                    "Source": "t"
+                                  }
+                                },
+                                "Property": "Column1"
+                              }
+                            },
+                            "Function": 0
+                          },
+                          "Name": "Sum(Table1.Column1)"
+                        }
+                      ]
+                    },
+                    "Binding": {
+                      "Primary": {
+                        "Groupings": [
+                          {
+                            "Projections": [
+                              0
+                            ]
+                          }
+                        ]
+                      },
+                      "Version": 1
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "dataTransforms": {
+            "__powerbi-vcs-embedded-json__": {
+              "projectionOrdering": {
+                "Values": [
+                  0
+                ]
+              },
+              "queryMetadata": {
+                "Select": [
+                  {
+                    "Restatement": "Column1",
+                    "Name": "Sum(Table1.Column1)",
+                    "Type": 3,
+                    "Format": "0"
+                  }
+                ]
+              },
+              "visualElements": [
+                {
+                  "DataRoles": [
+                    {
+                      "Name": "Values",
+                      "Projection": 0,
+                      "isActive": false
+                    }
+                  ]
+                }
+              ],
+              "selects": [
+                {
+                  "displayName": "Column1",
+                  "format": "0",
+                  "queryName": "Sum(Table1.Column1)",
+                  "roles": {
+                    "Values": true
+                  },
+                  "type": {
+                    "category": null,
+                    "underlyingType": 260
+                  },
+                  "expr": {
+                    "Aggregation": {
+                      "Expression": {
+                        "Column": {
+                          "Expression": {
+                            "SourceRef": {
+                              "Entity": "Table1"
+                            }
+                          },
+                          "Property": "Column1"
+                        }
+                      },
+                      "Function": 0
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "displayOption": 1,
+      "width": 1280,
+      "height": 720,
+      "config": {
+        "__powerbi-vcs-embedded-json__": {}
+      }
+    }
+  ],
+  "config": {
+    "__powerbi-vcs-embedded-json__": {
+      "version": "3.12",
+      "activeSectionIndex": 0,
+      "baseTheme": "CY18SU04",
+      "defaultDrillFilterOtherVisuals": true
+    }
+  },
+  "layoutOptimization": 0
+}
