@@ -1,12 +1,4 @@
 {
   "Version": 0,
-  "Data": [
-    {
-      "TableKey": "Tables\\bd91d5ac-ed16-44c7-80fc-77bb759d3820",
-      "Height": 150,
-      "Width": 200,
-      "Left": 0,
-      "Top": 0
-    }
-  ]
+  "Data": []
 }

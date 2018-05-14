@@ -197,6 +197,462 @@
               ]
             }
           }
+        },
+        {
+          "x": 150,
+          "y": 378,
+          "z": 2,
+          "width": 300,
+          "height": 300,
+          "config": {
+            "__powerbi-vcs-embedded-json__": {
+              "name": "ff7311240fdd12511bbd",
+              "layouts": [
+                {
+                  "id": 0,
+                  "position": {
+                    "x": 150,
+                    "y": 378,
+                    "width": 300,
+                    "height": 300,
+                    "z": 2
+                  }
+                }
+              ],
+              "singleVisual": {
+                "visualType": "slicer",
+                "projections": {
+                  "Values": [
+                    {
+                      "queryRef": "Table1.Column1"
+                    }
+                  ]
+                },
+                "prototypeQuery": {
+                  "Version": 2,
+                  "From": [
+                    {
+                      "Name": "t",
+                      "Entity": "Table1"
+                    }
+                  ],
+                  "Select": [
+                    {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Source": "t"
+                          }
+                        },
+                        "Property": "Column1"
+                      },
+                      "Name": "Table1.Column1"
+                    }
+                  ],
+                  "OrderBy": [
+                    {
+                      "Direction": 2,
+                      "Expression": {
+                        "Column": {
+                          "Expression": {
+                            "SourceRef": {
+                              "Source": "t"
+                            }
+                          },
+                          "Property": "Column1"
+                        }
+                      }
+                    }
+                  ]
+                },
+                "drillFilterOtherVisuals": true,
+                "objects": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Between'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "filters": {
+            "__powerbi-vcs-embedded-json__": []
+          },
+          "query": {
+            "__powerbi-vcs-embedded-json__": {
+              "Commands": [
+                {
+                  "SemanticQueryDataShapeCommand": {
+                    "Query": {
+                      "Version": 2,
+                      "From": [
+                        {
+                          "Name": "t",
+                          "Entity": "Table1"
+                        }
+                      ],
+                      "Select": [
+                        {
+                          "Column": {
+                            "Expression": {
+                              "SourceRef": {
+                                "Source": "t"
+                              }
+                            },
+                            "Property": "Column1"
+                          },
+                          "Name": "Table1.Column1"
+                        },
+                        {
+                          "Aggregation": {
+                            "Expression": {
+                              "Column": {
+                                "Expression": {
+                                  "SourceRef": {
+                                    "Source": "t"
+                                  }
+                                },
+                                "Property": "Column1"
+                              }
+                            },
+                            "Function": 3
+                          },
+                          "Name": "Min(Table1.Column1)"
+                        },
+                        {
+                          "Aggregation": {
+                            "Expression": {
+                              "Column": {
+                                "Expression": {
+                                  "SourceRef": {
+                                    "Source": "t"
+                                  }
+                                },
+                                "Property": "Column1"
+                              }
+                            },
+                            "Function": 4
+                          },
+                          "Name": "Max(Table1.Column1)"
+                        }
+                      ]
+                    },
+                    "Binding": {
+                      "Primary": {
+                        "Groupings": [
+                          {
+                            "Projections": [
+                              1,
+                              2
+                            ]
+                          }
+                        ]
+                      },
+                      "IncludeEmptyGroups": true,
+                      "Version": 1
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "dataTransforms": {
+            "__powerbi-vcs-embedded-json__": {
+              "objects": {
+                "data": [
+                  {
+                    "properties": {
+                      "mode": {
+                        "expr": {
+                          "Literal": {
+                            "Value": "'Between'"
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              },
+              "projectionOrdering": {
+                "Values": [
+                  0
+                ]
+              },
+              "queryMetadata": {
+                "Select": [
+                  {
+                    "Restatement": "Column1",
+                    "Name": "Table1.Column1",
+                    "Type": 3,
+                    "Format": "0"
+                  }
+                ]
+              },
+              "visualElements": [
+                {
+                  "DataRoles": [
+                    {
+                      "Name": "Values",
+                      "Projection": 0,
+                      "isActive": false
+                    }
+                  ]
+                }
+              ],
+              "selects": [
+                {
+                  "displayName": "Column1",
+                  "format": "0",
+                  "queryName": "Table1.Column1",
+                  "roles": {
+                    "Values": true
+                  },
+                  "type": {
+                    "category": null,
+                    "underlyingType": 260
+                  },
+                  "expr": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Table1"
+                        }
+                      },
+                      "Property": "Column1"
+                    }
+                  },
+                  "aggregateSources": {
+                    "min": {
+                      "index": 1
+                    },
+                    "max": {
+                      "index": 2
+                    }
+                  }
+                },
+                {
+                  "displayName": "",
+                  "queryName": "Min(Table1.Column1)",
+                  "expr": {
+                    "Aggregation": {
+                      "Expression": {
+                        "Column": {
+                          "Expression": {
+                            "SourceRef": {
+                              "Entity": "Table1"
+                            }
+                          },
+                          "Property": "Column1"
+                        }
+                      },
+                      "Function": 3
+                    }
+                  }
+                },
+                {
+                  "displayName": "",
+                  "queryName": "Max(Table1.Column1)",
+                  "expr": {
+                    "Aggregation": {
+                      "Expression": {
+                        "Column": {
+                          "Expression": {
+                            "SourceRef": {
+                              "Entity": "Table1"
+                            }
+                          },
+                          "Property": "Column1"
+                        }
+                      },
+                      "Function": 4
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "x": 639.6868884540118,
+          "y": 349.43248532289624,
+          "z": 3,
+          "width": 300.1174168297456,
+          "height": 300.1174168297456,
+          "config": {
+            "__powerbi-vcs-embedded-json__": {
+              "name": "dcfef30d45814f4ddfe6",
+              "layouts": [
+                {
+                  "id": 0,
+                  "position": {
+                    "x": 639.6868884540118,
+                    "y": 349.43248532289624,
+                    "z": 3,
+                    "width": 300.1174168297456,
+                    "height": 300.1174168297456
+                  }
+                }
+              ],
+              "singleVisual": {
+                "visualType": "clusteredColumnChart",
+                "projections": {
+                  "Y": [
+                    {
+                      "queryRef": "Sum(Table2.Column1)"
+                    }
+                  ]
+                },
+                "prototypeQuery": {
+                  "Version": 2,
+                  "From": [
+                    {
+                      "Name": "t",
+                      "Entity": "Table2"
+                    }
+                  ],
+                  "Select": [
+                    {
+                      "Aggregation": {
+                        "Expression": {
+                          "Column": {
+                            "Expression": {
+                              "SourceRef": {
+                                "Source": "t"
+                              }
+                            },
+                            "Property": "Column1"
+                          }
+                        },
+                        "Function": 0
+                      },
+                      "Name": "Sum(Table2.Column1)"
+                    }
+                  ]
+                },
+                "drillFilterOtherVisuals": true
+              }
+            }
+          },
+          "filters": {
+            "__powerbi-vcs-embedded-json__": []
+          },
+          "query": {
+            "__powerbi-vcs-embedded-json__": {
+              "Commands": [
+                {
+                  "SemanticQueryDataShapeCommand": {
+                    "Query": {
+                      "Version": 2,
+                      "From": [
+                        {
+                          "Name": "t",
+                          "Entity": "Table2"
+                        }
+                      ],
+                      "Select": [
+                        {
+                          "Aggregation": {
+                            "Expression": {
+                              "Column": {
+                                "Expression": {
+                                  "SourceRef": {
+                                    "Source": "t"
+                                  }
+                                },
+                                "Property": "Column1"
+                              }
+                            },
+                            "Function": 0
+                          },
+                          "Name": "Sum(Table2.Column1)"
+                        }
+                      ]
+                    },
+                    "Binding": {
+                      "Primary": {
+                        "Groupings": [
+                          {
+                            "Projections": [
+                              0
+                            ]
+                          }
+                        ]
+                      },
+                      "Version": 1
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "dataTransforms": {
+            "__powerbi-vcs-embedded-json__": {
+              "projectionOrdering": {
+                "Y": [
+                  0
+                ]
+              },
+              "queryMetadata": {
+                "Select": [
+                  {
+                    "Restatement": "Column1",
+                    "Name": "Sum(Table2.Column1)",
+                    "Type": 3,
+                    "Format": "0"
+                  }
+                ]
+              },
+              "visualElements": [
+                {
+                  "DataRoles": [
+                    {
+                      "Name": "Y",
+                      "Projection": 0,
+                      "isActive": false
+                    }
+                  ]
+                }
+              ],
+              "selects": [
+                {
+                  "displayName": "Column1",
+                  "format": "0",
+                  "queryName": "Sum(Table2.Column1)",
+                  "roles": {
+                    "Y": true
+                  },
+                  "type": {
+                    "category": null,
+                    "underlyingType": 260
+                  },
+                  "expr": {
+                    "Aggregation": {
+                      "Expression": {
+                        "Column": {
+                          "Expression": {
+                            "SourceRef": {
+                              "Entity": "Table2"
+                            }
+                          },
+                          "Property": "Column1"
+                        }
+                      },
+                      "Function": 0
+                    }
+                  }
+                }
+              ]
+            }
+          }
         }
       ],
       "displayOption": 1,
