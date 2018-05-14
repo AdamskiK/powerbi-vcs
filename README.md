@@ -1,4 +1,4 @@
-### Project status
+### Project status update
 
 We're really busy at the moment (Jan 2018) and have put development of this on hold until we start to need it internally (which is likely to be a few months). If you're interested in using this, you have a few options:
 
