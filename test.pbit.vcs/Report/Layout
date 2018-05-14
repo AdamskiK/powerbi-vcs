@@ -199,6 +199,7 @@
           }
         },
         {
+<<<<<<< HEAD
           "x": 42.27005870841487,
           "y": 339.56947162426616,
           "z": 2,
@@ -207,19 +208,38 @@
           "config": {
             "__powerbi-vcs-embedded-json__": {
               "name": "ba8a6db8b5e0778e9446",
+=======
+          "x": 150,
+          "y": 378,
+          "z": 2,
+          "width": 300,
+          "height": 300,
+          "config": {
+            "__powerbi-vcs-embedded-json__": {
+              "name": "ff7311240fdd12511bbd",
+>>>>>>> 4c9ec44ec8b36ae77aa9d4971203e1dfa2dbe080
               "layouts": [
                 {
                   "id": 0,
                   "position": {
+<<<<<<< HEAD
                     "x": 42.27005870841487,
                     "y": 339.56947162426616,
                     "z": 2,
                     "width": 402.9745596868884,
                     "height": 338.160469667319
+=======
+                    "x": 150,
+                    "y": 378,
+                    "width": 300,
+                    "height": 300,
+                    "z": 2
+>>>>>>> 4c9ec44ec8b36ae77aa9d4971203e1dfa2dbe080
                   }
                 }
               ],
               "singleVisual": {
+<<<<<<< HEAD
                 "visualType": "donutChart",
                 "projections": {
                   "Category": [
@@ -231,6 +251,13 @@
                   "Y": [
                     {
                       "queryRef": "Sum(Table1.Column1)"
+=======
+                "visualType": "slicer",
+                "projections": {
+                  "Values": [
+                    {
+                      "queryRef": "Table1.Column1"
+>>>>>>> 4c9ec44ec8b36ae77aa9d4971203e1dfa2dbe080
                     }
                   ]
                 },
@@ -238,10 +265,13 @@
                   "Version": 2,
                   "From": [
                     {
+<<<<<<< HEAD
                       "Name": "t1",
                       "Entity": "Table2"
                     },
                     {
+=======
+>>>>>>> 4c9ec44ec8b36ae77aa9d4971203e1dfa2dbe080
                       "Name": "t",
                       "Entity": "Table1"
                     }
@@ -251,11 +281,16 @@
                       "Column": {
                         "Expression": {
                           "SourceRef": {
+<<<<<<< HEAD
                             "Source": "t1"
+=======
+                            "Source": "t"
+>>>>>>> 4c9ec44ec8b36ae77aa9d4971203e1dfa2dbe080
                           }
                         },
                         "Property": "Column1"
                       },
+<<<<<<< HEAD
                       "Name": "Table2.Column1"
                     },
                     {
@@ -273,6 +308,9 @@
                         "Function": 0
                       },
                       "Name": "Sum(Table1.Column1)"
+=======
+                      "Name": "Table1.Column1"
+>>>>>>> 4c9ec44ec8b36ae77aa9d4971203e1dfa2dbe080
                     }
                   ],
                   "OrderBy": [
@@ -282,12 +320,403 @@
                         "Column": {
                           "Expression": {
                             "SourceRef": {
+<<<<<<< HEAD
                               "Source": "t1"
+=======
+                              "Source": "t"
+>>>>>>> 4c9ec44ec8b36ae77aa9d4971203e1dfa2dbe080
                             }
                           },
                           "Property": "Column1"
                         }
                       }
+                    }
+                  ]
+                },
+<<<<<<< HEAD
+                "drillFilterOtherVisuals": true
+=======
+                "drillFilterOtherVisuals": true,
+                "objects": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Between'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+>>>>>>> 4c9ec44ec8b36ae77aa9d4971203e1dfa2dbe080
+              }
+            }
+          },
+          "filters": {
+            "__powerbi-vcs-embedded-json__": []
+          },
+          "query": {
+            "__powerbi-vcs-embedded-json__": {
+              "Commands": [
+                {
+                  "SemanticQueryDataShapeCommand": {
+                    "Query": {
+                      "Version": 2,
+                      "From": [
+                        {
+<<<<<<< HEAD
+                          "Name": "t1",
+                          "Entity": "Table2"
+                        },
+                        {
+=======
+>>>>>>> 4c9ec44ec8b36ae77aa9d4971203e1dfa2dbe080
+                          "Name": "t",
+                          "Entity": "Table1"
+                        }
+                      ],
+                      "Select": [
+                        {
+                          "Column": {
+                            "Expression": {
+                              "SourceRef": {
+<<<<<<< HEAD
+                                "Source": "t1"
+=======
+                                "Source": "t"
+>>>>>>> 4c9ec44ec8b36ae77aa9d4971203e1dfa2dbe080
+                              }
+                            },
+                            "Property": "Column1"
+                          },
+<<<<<<< HEAD
+                          "Name": "Table2.Column1"
+=======
+                          "Name": "Table1.Column1"
+>>>>>>> 4c9ec44ec8b36ae77aa9d4971203e1dfa2dbe080
+                        },
+                        {
+                          "Aggregation": {
+                            "Expression": {
+                              "Column": {
+                                "Expression": {
+                                  "SourceRef": {
+                                    "Source": "t"
+                                  }
+                                },
+                                "Property": "Column1"
+                              }
+                            },
+<<<<<<< HEAD
+                            "Function": 0
+                          },
+                          "Name": "Sum(Table1.Column1)"
+                        }
+                      ],
+                      "OrderBy": [
+                        {
+                          "Direction": 2,
+                          "Expression": {
+                            "Column": {
+                              "Expression": {
+                                "SourceRef": {
+                                  "Source": "t1"
+                                }
+                              },
+                              "Property": "Column1"
+                            }
+                          }
+=======
+                            "Function": 3
+                          },
+                          "Name": "Min(Table1.Column1)"
+                        },
+                        {
+                          "Aggregation": {
+                            "Expression": {
+                              "Column": {
+                                "Expression": {
+                                  "SourceRef": {
+                                    "Source": "t"
+                                  }
+                                },
+                                "Property": "Column1"
+                              }
+                            },
+                            "Function": 4
+                          },
+                          "Name": "Max(Table1.Column1)"
+>>>>>>> 4c9ec44ec8b36ae77aa9d4971203e1dfa2dbe080
+                        }
+                      ]
+                    },
+                    "Binding": {
+                      "Primary": {
+                        "Groupings": [
+                          {
+                            "Projections": [
+<<<<<<< HEAD
+                              0,
+                              1
+=======
+                              1,
+                              2
+>>>>>>> 4c9ec44ec8b36ae77aa9d4971203e1dfa2dbe080
+                            ]
+                          }
+                        ]
+                      },
+<<<<<<< HEAD
+                      "DataReduction": {
+                        "DataVolume": 3,
+                        "Primary": {
+                          "Top": {}
+                        }
+                      },
+=======
+                      "IncludeEmptyGroups": true,
+>>>>>>> 4c9ec44ec8b36ae77aa9d4971203e1dfa2dbe080
+                      "Version": 1
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "dataTransforms": {
+            "__powerbi-vcs-embedded-json__": {
+<<<<<<< HEAD
+              "projectionOrdering": {
+                "Category": [
+                  0
+                ],
+                "Y": [
+                  1
+                ]
+              },
+              "projectionActiveItems": {
+                "Category": [
+                  {
+                    "queryRef": "Table2.Column1",
+                    "suppressConcat": false
+                  }
+                ]
+              },
+=======
+              "objects": {
+                "data": [
+                  {
+                    "properties": {
+                      "mode": {
+                        "expr": {
+                          "Literal": {
+                            "Value": "'Between'"
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              },
+              "projectionOrdering": {
+                "Values": [
+                  0
+                ]
+              },
+>>>>>>> 4c9ec44ec8b36ae77aa9d4971203e1dfa2dbe080
+              "queryMetadata": {
+                "Select": [
+                  {
+                    "Restatement": "Column1",
+<<<<<<< HEAD
+                    "Name": "Table2.Column1",
+                    "Type": 3,
+                    "Format": "0"
+                  },
+                  {
+                    "Restatement": "Sum of Column1",
+                    "Name": "Sum(Table1.Column1)",
+=======
+                    "Name": "Table1.Column1",
+>>>>>>> 4c9ec44ec8b36ae77aa9d4971203e1dfa2dbe080
+                    "Type": 3,
+                    "Format": "0"
+                  }
+                ]
+              },
+              "visualElements": [
+                {
+                  "DataRoles": [
+                    {
+<<<<<<< HEAD
+                      "Name": "Category",
+                      "Projection": 0,
+                      "isActive": true
+                    },
+                    {
+                      "Name": "Y",
+                      "Projection": 1,
+=======
+                      "Name": "Values",
+                      "Projection": 0,
+>>>>>>> 4c9ec44ec8b36ae77aa9d4971203e1dfa2dbe080
+                      "isActive": false
+                    }
+                  ]
+                }
+              ],
+              "selects": [
+                {
+                  "displayName": "Column1",
+                  "format": "0",
+<<<<<<< HEAD
+                  "queryName": "Table2.Column1",
+                  "roles": {
+                    "Category": true
+                  },
+                  "sort": 2,
+                  "sortOrder": 0,
+=======
+                  "queryName": "Table1.Column1",
+                  "roles": {
+                    "Values": true
+                  },
+>>>>>>> 4c9ec44ec8b36ae77aa9d4971203e1dfa2dbe080
+                  "type": {
+                    "category": null,
+                    "underlyingType": 260
+                  },
+                  "expr": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+<<<<<<< HEAD
+                          "Entity": "Table2"
+=======
+                          "Entity": "Table1"
+>>>>>>> 4c9ec44ec8b36ae77aa9d4971203e1dfa2dbe080
+                        }
+                      },
+                      "Property": "Column1"
+                    }
+<<<<<<< HEAD
+                  }
+                },
+                {
+                  "displayName": "Sum of Column1",
+                  "format": "0",
+                  "queryName": "Sum(Table1.Column1)",
+=======
+                  },
+                  "aggregateSources": {
+                    "min": {
+                      "index": 1
+                    },
+                    "max": {
+                      "index": 2
+                    }
+                  }
+                },
+                {
+                  "displayName": "",
+                  "queryName": "Min(Table1.Column1)",
+                  "expr": {
+                    "Aggregation": {
+                      "Expression": {
+                        "Column": {
+                          "Expression": {
+                            "SourceRef": {
+                              "Entity": "Table1"
+                            }
+                          },
+                          "Property": "Column1"
+                        }
+                      },
+                      "Function": 3
+                    }
+                  }
+                },
+                {
+                  "displayName": "",
+                  "queryName": "Max(Table1.Column1)",
+                  "expr": {
+                    "Aggregation": {
+                      "Expression": {
+                        "Column": {
+                          "Expression": {
+                            "SourceRef": {
+                              "Entity": "Table1"
+                            }
+                          },
+                          "Property": "Column1"
+                        }
+                      },
+                      "Function": 4
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "x": 639.6868884540118,
+          "y": 349.43248532289624,
+          "z": 3,
+          "width": 300.1174168297456,
+          "height": 300.1174168297456,
+          "config": {
+            "__powerbi-vcs-embedded-json__": {
+              "name": "dcfef30d45814f4ddfe6",
+              "layouts": [
+                {
+                  "id": 0,
+                  "position": {
+                    "x": 639.6868884540118,
+                    "y": 349.43248532289624,
+                    "z": 3,
+                    "width": 300.1174168297456,
+                    "height": 300.1174168297456
+                  }
+                }
+              ],
+              "singleVisual": {
+                "visualType": "clusteredColumnChart",
+                "projections": {
+                  "Y": [
+                    {
+                      "queryRef": "Sum(Table2.Column1)"
+                    }
+                  ]
+                },
+                "prototypeQuery": {
+                  "Version": 2,
+                  "From": [
+                    {
+                      "Name": "t",
+                      "Entity": "Table2"
+                    }
+                  ],
+                  "Select": [
+                    {
+                      "Aggregation": {
+                        "Expression": {
+                          "Column": {
+                            "Expression": {
+                              "SourceRef": {
+                                "Source": "t"
+                              }
+                            },
+                            "Property": "Column1"
+                          }
+                        },
+                        "Function": 0
+                      },
+                      "Name": "Sum(Table2.Column1)"
                     }
                   ]
                 },
@@ -307,26 +736,11 @@
                       "Version": 2,
                       "From": [
                         {
-                          "Name": "t1",
-                          "Entity": "Table2"
-                        },
-                        {
                           "Name": "t",
-                          "Entity": "Table1"
+                          "Entity": "Table2"
                         }
                       ],
                       "Select": [
-                        {
-                          "Column": {
-                            "Expression": {
-                              "SourceRef": {
-                                "Source": "t1"
-                              }
-                            },
-                            "Property": "Column1"
-                          },
-                          "Name": "Table2.Column1"
-                        },
                         {
                           "Aggregation": {
                             "Expression": {
@@ -341,22 +755,7 @@
                             },
                             "Function": 0
                           },
-                          "Name": "Sum(Table1.Column1)"
-                        }
-                      ],
-                      "OrderBy": [
-                        {
-                          "Direction": 2,
-                          "Expression": {
-                            "Column": {
-                              "Expression": {
-                                "SourceRef": {
-                                  "Source": "t1"
-                                }
-                              },
-                              "Property": "Column1"
-                            }
-                          }
+                          "Name": "Sum(Table2.Column1)"
                         }
                       ]
                     },
@@ -365,17 +764,10 @@
                         "Groupings": [
                           {
                             "Projections": [
-                              0,
-                              1
+                              0
                             ]
                           }
                         ]
-                      },
-                      "DataReduction": {
-                        "DataVolume": 3,
-                        "Primary": {
-                          "Top": {}
-                        }
                       },
                       "Version": 1
                     }
@@ -387,32 +779,15 @@
           "dataTransforms": {
             "__powerbi-vcs-embedded-json__": {
               "projectionOrdering": {
-                "Category": [
-                  0
-                ],
                 "Y": [
-                  1
-                ]
-              },
-              "projectionActiveItems": {
-                "Category": [
-                  {
-                    "queryRef": "Table2.Column1",
-                    "suppressConcat": false
-                  }
+                  0
                 ]
               },
               "queryMetadata": {
                 "Select": [
                   {
                     "Restatement": "Column1",
-                    "Name": "Table2.Column1",
-                    "Type": 3,
-                    "Format": "0"
-                  },
-                  {
-                    "Restatement": "Sum of Column1",
-                    "Name": "Sum(Table1.Column1)",
+                    "Name": "Sum(Table2.Column1)",
                     "Type": 3,
                     "Format": "0"
                   }
@@ -422,13 +797,8 @@
                 {
                   "DataRoles": [
                     {
-                      "Name": "Category",
-                      "Projection": 0,
-                      "isActive": true
-                    },
-                    {
                       "Name": "Y",
-                      "Projection": 1,
+                      "Projection": 0,
                       "isActive": false
                     }
                   ]
@@ -438,31 +808,8 @@
                 {
                   "displayName": "Column1",
                   "format": "0",
-                  "queryName": "Table2.Column1",
-                  "roles": {
-                    "Category": true
-                  },
-                  "sort": 2,
-                  "sortOrder": 0,
-                  "type": {
-                    "category": null,
-                    "underlyingType": 260
-                  },
-                  "expr": {
-                    "Column": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Table2"
-                        }
-                      },
-                      "Property": "Column1"
-                    }
-                  }
-                },
-                {
-                  "displayName": "Sum of Column1",
-                  "format": "0",
-                  "queryName": "Sum(Table1.Column1)",
+                  "queryName": "Sum(Table2.Column1)",
+>>>>>>> 4c9ec44ec8b36ae77aa9d4971203e1dfa2dbe080
                   "roles": {
                     "Y": true
                   },
@@ -476,7 +823,11 @@
                         "Column": {
                           "Expression": {
                             "SourceRef": {
+<<<<<<< HEAD
                               "Entity": "Table1"
+=======
+                              "Entity": "Table2"
+>>>>>>> 4c9ec44ec8b36ae77aa9d4971203e1dfa2dbe080
                             }
                           },
                           "Property": "Column1"
