@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "c1286fbf-bdc1-4194-8722-ff882e44f8a6",
   "compatibilityLevel": 1400,
   "createdTimestamp": "2018-05-15T07:21:25.49+02:00",
@@ -33,6 +34,48 @@
         "connectionString": "Provider=Microsoft.PowerBI.OleDb;Global Pipe=1407e755-41cf-49d0-88b1-3579111df02e;Mashup=\"UEsDBBQAAgAIAK46r0wqK064qQAAAPoAAAASABwAQ29uZmlnL1BhY2thZ2UueG1sIKIYACigFAAAAAAAAAAAAAAAAAAAAAAAAAAAAIWPQQ6CMBREr0K657eF1CD5lIVbSUyIxi2BCo1QDC3C3Vx4JK+giWLcuZt5eYuZx+2O6dy13lUNVvcmIRwY8ZQp+0qbOiGjO/kRSSXuivJc1Mp7ycbGs60S0jh3iSmdpgmmEPqhpgFjnB6zbV42qivIV9b/ZV8b6wpTKiLx8B4jAxARCM5CEIwjXTBm2iyZg4AwWK+AIf3BuBlbNw5KKuPvc6RLRfr5IZ9QSwMEFAACAAgArjqvTA/K6aukAAAA6QAAABMAHABbQ29udGVudF9UeXBlc10ueG1sIKIYACigFAAAAAAAAAAAAAAAAAAAAAAAAAAAAG2OSw7CMAxErxJ5n7qwQAg1ZQHcgAtEwf2I5qPGReFsLDgSVyBtd4ilZ+Z55vN6V8dkB/GgMfbeKdgUJQhyxt961yqYuJF7ONbV9Rkoihx1UUHHHA6I0XRkdSx8IJedxo9Wcz7HFoM2d90Sbstyh8Y7JseS5x9QV2dq9DSwuKQsr7UZB3Fac3OVAqbEuMj4l7A/eR3C0BvN2cQkbZR2IXEZXn8BUEsDBBQAAgAIAK46r0wu6k9nawEAAJgCAAATABwARm9ybXVsYXMvU2VjdGlvbjEubSCiGAAooBQAAAAAAAAAAAAAAAAAAAAAAAAAAABtUU1PwkAQvZPwHzb1sk2aJiSVC/EARRM1aqSoB0LI2g6wZj/I7lRFwn9n1y0lGubS9M3se2/eWCiRa0WK8O0Nup1ux66ZgYpM2buAjFwRAdjtEFeFrk0JDvltpTdGy4n+svTOapWOdVlLUEhHXDGzTcdQarkxYO0R8fNT+EYa8ezy7UEU9x/PL8MoIaF/rUpdcbVKR8xCP4sTkjcE3NPDUjCE2MHOD1mgs0EpbjdA0HHGRAIyMivAcCb4D1Spl3JDaGqYx4QrEoa9dTLLtail6rn+AudxEva7iPI1Uyu/uxuN2kWnhim71EaGV75paQgj2e2ihsstcquwn6W+v98fSYc16glI/QlVGLReNfTaZH3hn2BfmaiB/nOUkJnLgdUCA9Ujk/4cUThV1C7iywTNljR4aCxQTBq4AZ6WXsDDu1NMSYjMuEuaqvkR3OI+joMOVye9s1F5g5Y2VpykO0maC2DKERwfnwlocABQSwECLQAUAAIACACuOq9MKitOuKkAAAD6AAAAEgAAAAAAAAAAAAAAAAAAAAAAQ29uZmlnL1BhY2thZ2UueG1sUEsBAi0AFAACAAgArjqvTA/K6aukAAAA6QAAABMAAAAAAAAAAAAAAAAA9QAAAFtDb250ZW50X1R5cGVzXS54bWxQSwECLQAUAAIACACuOq9MLupPZ2sBAACYAgAAEwAAAAAAAAAAAAAAAADmAQAARm9ybXVsYXMvU2VjdGlvbjEubVBLBQYAAAAAAwADAMIAAACeAwAAAAA=\";Location=Table4",
         "impersonationMode": "impersonateCurrentUser",
         "modifiedTime": "2018-05-15T05:21:28.956667"
+=======
+  "name": "58a43237-9a94-4ed1-81df-db86774e4cdd",
+  "compatibilityLevel": 1400,
+  "createdTimestamp": "2018-05-15T07:18:02.93+02:00",
+  "lastUpdate": "2018-05-15T07:18:44.333333+02:00",
+  "lastSchemaUpdate": "2018-05-15T07:18:02.93+02:00",
+  "lastProcessed": "2018-05-15T07:18:44.16+02:00",
+  "model": {
+    "culture": "en-US",
+    "modifiedTime": "2018-05-15T05:18:03.056667",
+    "structureModifiedTime": "2018-05-15T05:18:44.286667",
+    "dataSources": [
+      {
+        "name": "019609f3-a301-47b4-ac6b-1aabd330005d",
+        "connectionString": "Provider=Microsoft.PowerBI.OleDb;Global Pipe=529714cd-39b0-4fae-9255-49885e423c94;Mashup=UEsDBBQAAgAIAEM6r0yeFOzmrQAAAPsAAAASABwAQ29uZmlnL1BhY2thZ2UueG1sIKIYACigFAAAAAAAAAAAAAAAAAAAAAAAAAAAAIWPsQ6CMBRFd7+CsDDx2kIwSB5lcJXEhGhcG6zQCMVAsfybg5/kL2iiGDe3e0/OcO/jdsdsahvnKvtBdTr1GFDPkbrsjkpXqTeakx97GV/gVpRnUUnnZeshmYZj6tbGXBJCrLVgQ+j6igSUMnLIN0VZy1a4X1n9l32lByN0KV2O+/caHkAUQ8RoCBFlSGaMudJzZhBBGKyWQJH8YFyPjRl7yaX2dwWSuSL5/OBPUEsDBBQAAgAIAEM6r0wPyumrpAAAAOkAAAATABwAW0NvbnRlbnRfVHlwZXNdLnhtbCCiGAAooBQAAAAAAAAAAAAAAAAAAAAAAAAAAABtjksOwjAMRK8SeZ+6sEAINWUB3IALRMH9iOajxkXhbCw4ElcgbXeIpWfmeebzelfHZAfxoDH23inYFCUIcsbfetcqmLiRezjW1fUZKIocdVFBxxwOiNF0ZHUsfCCXncaPVnM+xxaDNnfdEm7LcofGOybHkucfUFdnavQ0sLikLK+1GQdxWnNzlQKmxLjI+JewP3kdwtAbzdnEJG2UdiFxGV5/AVBLAwQUAAIACABDOq9MlSHY/IYBAAC4AgAAEwAcAEZvcm11bGFzL1NlY3Rpb24xLm0gohgAKKAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAbVFNawIxEL0L/oewvWRhWZBaL6UHXdtSxQpdUYoUibujDeZDktlaK/73Js2qtHQuIW8+3ps3FgrkWpE8vK3bZqPZsO/MQEkmbCmgRe6IAGw2iItcV6YAh/yk0gej5YveWTqwWqV9XVQSFNIeV8zs0z4UWm4NWHtCfP0EPpFGvH0zG4l82HoVs9F6OPmU/bx3v2frzeZr9LgZD/h1dzuc5sts140SEvrvVaFLrtZpj1notOOEZDUB9/SwEgwhdrDTSxboZFKK+y0QdJwxkYCMzHMwnAn+BWXqpbgiNBW8xYQrEor9amSeaVFJ5bdf4FuchP2vouydqbX3xpVGZyMmhim70kaGLp+0NJiVHA5RPcst8qSw0059/ng8De1WqF9A6g8oQ6H1rCF3dt4H/jJ+ykQF9I+ihMydD6wSGEY9M+nPFYVTRudFfJjAeR4aNNQSKCY1XAPjlSfw8OFiUxIsM+7Spqw/gls8xnHg4erC969VXqCltRRH6U6SZgKYcgNOzf8YdPsNUEsBAi0AFAACAAgAQzqvTJ4U7OatAAAA+wAAABIAAAAAAAAAAAAAAAAAAAAAAENvbmZpZy9QYWNrYWdlLnhtbFBLAQItABQAAgAIAEM6r0wPyumrpAAAAOkAAAATAAAAAAAAAAAAAAAAAPkAAABbQ29udGVudF9UeXBlc10ueG1sUEsBAi0AFAACAAgAQzqvTJUh2PyGAQAAuAIAABMAAAAAAAAAAAAAAAAA6gEAAEZvcm11bGFzL1NlY3Rpb24xLm1QSwUGAAAAAAMAAwDCAAAAvQMAAAAA;Location=Table1",
+        "impersonationMode": "impersonateCurrentUser",
+        "modifiedTime": "2018-05-15T05:18:06.75"
+      },
+      {
+        "name": "a21aa397-e110-452a-9421-d13eec129e10",
+        "connectionString": "Provider=Microsoft.PowerBI.OleDb;Global Pipe=529714cd-39b0-4fae-9255-49885e423c94;Mashup=UEsDBBQAAgAIAEM6r0yeFOzmrQAAAPsAAAASABwAQ29uZmlnL1BhY2thZ2UueG1sIKIYACigFAAAAAAAAAAAAAAAAAAAAAAAAAAAAIWPsQ6CMBRFd7+CsDDx2kIwSB5lcJXEhGhcG6zQCMVAsfybg5/kL2iiGDe3e0/OcO/jdsdsahvnKvtBdTr1GFDPkbrsjkpXqTeakx97GV/gVpRnUUnnZeshmYZj6tbGXBJCrLVgQ+j6igSUMnLIN0VZy1a4X1n9l32lByN0KV2O+/caHkAUQ8RoCBFlSGaMudJzZhBBGKyWQJH8YFyPjRl7yaX2dwWSuSL5/OBPUEsDBBQAAgAIAEM6r0wPyumrpAAAAOkAAAATABwAW0NvbnRlbnRfVHlwZXNdLnhtbCCiGAAooBQAAAAAAAAAAAAAAAAAAAAAAAAAAABtjksOwjAMRK8SeZ+6sEAINWUB3IALRMH9iOajxkXhbCw4ElcgbXeIpWfmeebzelfHZAfxoDH23inYFCUIcsbfetcqmLiRezjW1fUZKIocdVFBxxwOiNF0ZHUsfCCXncaPVnM+xxaDNnfdEm7LcofGOybHkucfUFdnavQ0sLikLK+1GQdxWnNzlQKmxLjI+JewP3kdwtAbzdnEJG2UdiFxGV5/AVBLAwQUAAIACABDOq9MEv6nuX0BAACsAgAAEwAcAEZvcm11bGFzL1NlY3Rpb24xLm0gohgAKKAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAbVFda8IwFH0X/A+he0mhlDncXsQHPyZMcWNaJpuIxPZaA2kiye2cE//7kqUqG+al9Nx7zzn3XAMpciXJ1H8brXqtXjMbpiEjCVsJuCNtIgDrNWLfVJU6BYv8luKBVsVE7QwdGiXjvkrLAiTSLpdM7+M+pKrYajDmhLj+BL6QBrx5PxuL6ajxLmbjfJQMzUe+37yuuo3b3SDvtIOI+JlHmaqMyzzuMgMPzTAivYqUO0lYC4YQWth6JEu01ijF/RYIWp2QFICMzKegORP8G7LYydsm1CUsQsIl8c1uHTLvKVEWsmHrS1yEkd/5JuhtmMxdHrY1OC+faCbNWunCT7mioT6g6HAIKi67yJPEh2bs6sfjibRToppAoT4h843GqfraOW338E/Yb0yUQP85isjc5sBKgZ7qmRXuRIE/X3BexD3tNc+k3kNlgWJUwRXwsnYCDj5cYop8ZNpeV2fVj+AGj2Hodbi86F2Nyhk0tLJiJe1J4p4AJi3BafhKQK0fUEsBAi0AFAACAAgAQzqvTJ4U7OatAAAA+wAAABIAAAAAAAAAAAAAAAAAAAAAAENvbmZpZy9QYWNrYWdlLnhtbFBLAQItABQAAgAIAEM6r0wPyumrpAAAAOkAAAATAAAAAAAAAAAAAAAAAPkAAABbQ29udGVudF9UeXBlc10ueG1sUEsBAi0AFAACAAgAQzqvTBL+p7l9AQAArAIAABMAAAAAAAAAAAAAAAAA6gEAAEZvcm11bGFzL1NlY3Rpb24xLm1QSwUGAAAAAAMAAwDCAAAAtAMAAAAA;Location=Table2",
+        "impersonationMode": "impersonateCurrentUser",
+        "modifiedTime": "2018-05-15T05:18:06.783333"
+      },
+      {
+        "name": "46cbf73e-7837-4107-bfd3-3382c8dcef0a",
+        "connectionString": "Provider=Microsoft.PowerBI.OleDb;Global Pipe=529714cd-39b0-4fae-9255-49885e423c94;Mashup=UEsDBBQAAgAIAEM6r0yeFOzmrQAAAPsAAAASABwAQ29uZmlnL1BhY2thZ2UueG1sIKIYACigFAAAAAAAAAAAAAAAAAAAAAAAAAAAAIWPsQ6CMBRFd7+CsDDx2kIwSB5lcJXEhGhcG6zQCMVAsfybg5/kL2iiGDe3e0/OcO/jdsdsahvnKvtBdTr1GFDPkbrsjkpXqTeakx97GV/gVpRnUUnnZeshmYZj6tbGXBJCrLVgQ+j6igSUMnLIN0VZy1a4X1n9l32lByN0KV2O+/caHkAUQ8RoCBFlSGaMudJzZhBBGKyWQJH8YFyPjRl7yaX2dwWSuSL5/OBPUEsDBBQAAgAIAEM6r0wPyumrpAAAAOkAAAATABwAW0NvbnRlbnRfVHlwZXNdLnhtbCCiGAAooBQAAAAAAAAAAAAAAAAAAAAAAAAAAABtjksOwjAMRK8SeZ+6sEAINWUB3IALRMH9iOajxkXhbCw4ElcgbXeIpWfmeebzelfHZAfxoDH23inYFCUIcsbfetcqmLiRezjW1fUZKIocdVFBxxwOiNF0ZHUsfCCXncaPVnM+xxaDNnfdEm7LcofGOybHkucfUFdnavQ0sLikLK+1GQdxWnNzlQKmxLjI+JewP3kdwtAbzdnEJG2UdiFxGV5/AVBLAwQUAAIACABDOq9MgW+UQmsBAACYAgAAEwAcAEZvcm11bGFzL1NlY3Rpb24xLm0gohgAKKAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAbVFNT8JAEL2T8B829bJNmiZE5EI8QNFEjRpp1QMhZG0HWLMfZHeqIuG/u+uWEg1zafpm9r03byyUyLUiefj2ht1Ot2PXzEBFCvYm4JxcEgHY7RBXua5NCQ75baXXRsup/rT01mqVTnRZS1BIx1wxs00nUGq5MWDtAfHzBXwhjXj/4vVe5HfvT8+jKCGhf6VKXXG1SsfMwqAfJyRrCLinh6VgCLGDnR+yQGeDUtxugKDjjIkEZGSWg+FM8G+oUi/lhtDUMI8JVyQMe+tklmlRS9Vz/QXO4yTsdxZla6ZWfnc3GrWLFoYpu9RGhle+aWkII9ntoobLLXKjcNBPfX+/P5COatRTkPoDqjBovWrotcn6wj/BvjBRA/3nKCEzlwOrBQaqByb9OaJwqqhdxJcJmi1p8NBYoJg0cAM8Lr2Ah3fHmJIQmXGXNFXzI7jFfRwHHa6Oeiej8gYtbaw4SXeSNBPAlCM4PD4R0PAHUEsBAi0AFAACAAgAQzqvTJ4U7OatAAAA+wAAABIAAAAAAAAAAAAAAAAAAAAAAENvbmZpZy9QYWNrYWdlLnhtbFBLAQItABQAAgAIAEM6r0wPyumrpAAAAOkAAAATAAAAAAAAAAAAAAAAAPkAAABbQ29udGVudF9UeXBlc10ueG1sUEsBAi0AFAACAAgAQzqvTIFvlEJrAQAAmAIAABMAAAAAAAAAAAAAAAAA6gEAAEZvcm11bGFzL1NlY3Rpb24xLm1QSwUGAAAAAAMAAwDCAAAAogMAAAAA;Location=Table3",
+        "impersonationMode": "impersonateCurrentUser",
+        "modifiedTime": "2018-05-15T05:18:06.796667"
+      },
+      {
+        "name": "ad46b81a-30ea-4b98-a9f1-e8d1f652ccaa",
+        "connectionString": "Provider=Microsoft.PowerBI.OleDb;Global Pipe=529714cd-39b0-4fae-9255-49885e423c94;Mashup=UEsDBBQAAgAIAEM6r0yeFOzmrQAAAPsAAAASABwAQ29uZmlnL1BhY2thZ2UueG1sIKIYACigFAAAAAAAAAAAAAAAAAAAAAAAAAAAAIWPsQ6CMBRFd7+CsDDx2kIwSB5lcJXEhGhcG6zQCMVAsfybg5/kL2iiGDe3e0/OcO/jdsdsahvnKvtBdTr1GFDPkbrsjkpXqTeakx97GV/gVpRnUUnnZeshmYZj6tbGXBJCrLVgQ+j6igSUMnLIN0VZy1a4X1n9l32lByN0KV2O+/caHkAUQ8RoCBFlSGaMudJzZhBBGKyWQJH8YFyPjRl7yaX2dwWSuSL5/OBPUEsDBBQAAgAIAEM6r0wPyumrpAAAAOkAAAATABwAW0NvbnRlbnRfVHlwZXNdLnhtbCCiGAAooBQAAAAAAAAAAAAAAAAAAAAAAAAAAABtjksOwjAMRK8SeZ+6sEAINWUB3IALRMH9iOajxkXhbCw4ElcgbXeIpWfmeebzelfHZAfxoDH23inYFCUIcsbfetcqmLiRezjW1fUZKIocdVFBxxwOiNF0ZHUsfCCXncaPVnM+xxaDNnfdEm7LcofGOybHkucfUFdnavQ0sLikLK+1GQdxWnNzlQKmxLjI+JewP3kdwtAbzdnEJG2UdiFxGV5/AVBLAwQUAAIACABDOq9MLupPZ2sBAACYAgAAEwAcAEZvcm11bGFzL1NlY3Rpb24xLm0gohgAKKAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAbVFNT8JAEL2T8B829bJNmiYklQvxAEUTNWqkqAdCyNoOsGY/yO5URcJ/Z9ctJRrm0vTN7Htv3lgokWtFivDtDbqdbseumYGKTNm7gIxcEQHY7RBXha5NCQ75baU3RsuJ/rL0zmqVjnVZS1BIR1wxs03HUGq5MWDtEfHzU/hGGvHs8u1BFPcfzy/DKCGhf61KXXG1SkfMQj+LE5I3BNzTw1IwhNjBzg9ZoLNBKW43QNBxxkQCMjIrwHAm+A9UqZdyQ2hqmMeEKxKGvXUyy7Wopeq5/gLncRL2u4jyNVMrv7sbjdpFp4Ypu9RGhle+aWkII9ntoobLLXKrsJ+lvr/fH0mHNeoJSP0JVRi0XjX02mR94Z9gX5mogf5zlJCZy4HVAgPVI5P+HFE4VdQu4ssEzZY0eGgsUEwauAGell7Aw7tTTEmIzLhLmqr5EdziPo6DDlcnvbNReYOWNlacpDtJmgtgyhEcH58JaHAAUEsBAi0AFAACAAgAQzqvTJ4U7OatAAAA+wAAABIAAAAAAAAAAAAAAAAAAAAAAENvbmZpZy9QYWNrYWdlLnhtbFBLAQItABQAAgAIAEM6r0wPyumrpAAAAOkAAAATAAAAAAAAAAAAAAAAAPkAAABbQ29udGVudF9UeXBlc10ueG1sUEsBAi0AFAACAAgAQzqvTC7qT2drAQAAmAIAABMAAAAAAAAAAAAAAAAA6gEAAEZvcm11bGFzL1NlY3Rpb24xLm1QSwUGAAAAAAMAAwDCAAAAogMAAAAA;Location=Table4",
+        "impersonationMode": "impersonateCurrentUser",
+        "modifiedTime": "2018-05-15T05:18:06.833333"
+      },
+      {
+        "name": "2f7cad70-cebb-4969-b5bc-1dd006816d08",
+        "connectionString": "Provider=Microsoft.PowerBI.OleDb;Global Pipe=529714cd-39b0-4fae-9255-49885e423c94;Mashup=UEsDBBQAAgAIAFU6r0yeFOzmrQAAAPsAAAASABwAQ29uZmlnL1BhY2thZ2UueG1sIKIYACigFAAAAAAAAAAAAAAAAAAAAAAAAAAAAIWPsQ6CMBRFd7+CsDDx2kIwSB5lcJXEhGhcG6zQCMVAsfybg5/kL2iiGDe3e0/OcO/jdsdsahvnKvtBdTr1GFDPkbrsjkpXqTeakx97GV/gVpRnUUnnZeshmYZj6tbGXBJCrLVgQ+j6igSUMnLIN0VZy1a4X1n9l32lByN0KV2O+/caHkAUQ8RoCBFlSGaMudJzZhBBGKyWQJH8YFyPjRl7yaX2dwWSuSL5/OBPUEsDBBQAAgAIAFU6r0wPyumrpAAAAOkAAAATABwAW0NvbnRlbnRfVHlwZXNdLnhtbCCiGAAooBQAAAAAAAAAAAAAAAAAAAAAAAAAAABtjksOwjAMRK8SeZ+6sEAINWUB3IALRMH9iOajxkXhbCw4ElcgbXeIpWfmeebzelfHZAfxoDH23inYFCUIcsbfetcqmLiRezjW1fUZKIocdVFBxxwOiNF0ZHUsfCCXncaPVnM+xxaDNnfdEm7LcofGOybHkucfUFdnavQ0sLikLK+1GQdxWnNzlQKmxLjI+JewP3kdwtAbzdnEJG2UdiFxGV5/AVBLAwQUAAIACABVOq9MF90Ka2sBAACYAgAAEwAcAEZvcm11bGFzL1NlY3Rpb24xLm0gohgAKKAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAbVFNT8JAEL2T8B829bJNmiYkwIV4gKKJGjVS1ENDyNoOsGY/yO5URcJ/d9ctJRrm0vTN7Htv3lgokWtF8vDtjbqdbsdumIGKzNmbgAG5JAKw2yGucl2bEhzy20qvjZYz/WnprdUqneqylqCQTrhiZpdOodRya8DaI+Ln5/CFNOL9weu9yO/en57HUUJC/0qVuuJqnU6YhWE/TkjWEHBPDyvBEGIHOz9kic4GpbjbAkHHGRMJyEiRg+FM8G+oUi/lhtDUsIgJVyQMe+ukyLSopeq5/hIXcRL2u4iyDVNrv7sbjdpF54Ypu9JGhle+aWkII9nvo4bLLXKjcNhPff9wOJKOa9QzkPoDqjBovWrotcn6wj/BvjBRA/3nKCGFy4HVAgPVA5P+HFE4VdQu4ssEzZY0eGgsUEwauAEeV17Aw/tTTEmIzLhLmqr5EdziIY6DDlcnvbNReYOWNlacpDtJmglgyhEcH58JaPQDUEsBAi0AFAACAAgAVTqvTJ4U7OatAAAA+wAAABIAAAAAAAAAAAAAAAAAAAAAAENvbmZpZy9QYWNrYWdlLnhtbFBLAQItABQAAgAIAFU6r0wPyumrpAAAAOkAAAATAAAAAAAAAAAAAAAAAPkAAABbQ29udGVudF9UeXBlc10ueG1sUEsBAi0AFAACAAgAVTqvTBfdCmtrAQAAmAIAABMAAAAAAAAAAAAAAAAA6gEAAEZvcm11bGFzL1NlY3Rpb24xLm1QSwUGAAAAAAMAAwDCAAAAogMAAAAA;Location=Table5",
+        "impersonationMode": "impersonateCurrentUser",
+        "modifiedTime": "2018-05-15T05:18:44.113333"
+>>>>>>> origin/master
       }
     ],
     "tables": [
@@ -40,8 +83,13 @@
         "name": "DateTableTemplate_748c43e9-7205-403d-aafe-1be251792acd",
         "isHidden": true,
         "isPrivate": true,
+<<<<<<< HEAD
         "modifiedTime": "2018-05-15T05:21:25.606667",
         "structureModifiedTime": "2018-05-15T05:21:25.606667",
+=======
+        "modifiedTime": "2018-05-15T05:18:03.056667",
+        "structureModifiedTime": "2018-05-15T05:18:03.056667",
+>>>>>>> origin/master
         "columns": [
           {
             "type": "rowNumber",
@@ -51,6 +99,7 @@
             "isUnique": true,
             "isKey": true,
             "isNullable": false,
+<<<<<<< HEAD
             "modifiedTime": "2018-05-15T05:21:25.613333",
             "structureModifiedTime": "2018-05-15T05:21:25.606667",
             "refreshedTime": "1699-12-31T00:00:00",
@@ -58,6 +107,15 @@
               "state": "ready",
               "modifiedTime": "2018-05-15T05:21:25.806667",
               "refreshedTime": "2018-05-15T05:21:25.806667"
+=======
+            "modifiedTime": "2018-05-15T05:18:03.063333",
+            "structureModifiedTime": "2018-05-15T05:18:03.06",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "state": "ready",
+              "modifiedTime": "2018-05-15T05:18:03.256667",
+              "refreshedTime": "2018-05-15T05:18:03.256667"
+>>>>>>> origin/master
             }
           },
           {
@@ -71,6 +129,7 @@
             "formatString": "General Date",
             "dataCategory": "PaddedDateTableDates",
             "summarizeBy": "none",
+<<<<<<< HEAD
             "modifiedTime": "2018-05-15T05:21:25.806667",
             "structureModifiedTime": "2018-05-15T05:21:25.606667",
             "refreshedTime": "1699-12-31T00:00:00",
@@ -78,17 +137,34 @@
               "state": "ready",
               "modifiedTime": "2018-05-15T05:21:25.806667",
               "refreshedTime": "2018-05-15T05:21:25.806667"
+=======
+            "modifiedTime": "2018-05-15T05:18:03.256667",
+            "structureModifiedTime": "2018-05-15T05:18:03.06",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "state": "ready",
+              "modifiedTime": "2018-05-15T05:18:03.256667",
+              "refreshedTime": "2018-05-15T05:18:03.256667"
+>>>>>>> origin/master
             },
             "annotations": [
               {
                 "name": "SummarizationSetBy",
                 "value": "User",
+<<<<<<< HEAD
                 "modifiedTime": "2018-05-15T05:21:25.606667"
+=======
+                "modifiedTime": "2018-05-15T05:18:03.06"
+>>>>>>> origin/master
               },
               {
                 "name": "Format",
                 "value": "<Format Format=\"DateTimeGeneralPattern\"><DateTimes><DateTime LCID=\"1033\" Group=\"GeneralDateTimeLong\" FormatString=\"G\" /></DateTimes></Format>",
+<<<<<<< HEAD
                 "modifiedTime": "2018-05-15T05:21:25.606667"
+=======
+                "modifiedTime": "2018-05-15T05:18:03.06"
+>>>>>>> origin/master
               }
             ]
           },
@@ -102,6 +178,7 @@
             "formatString": "0",
             "dataCategory": "Years",
             "summarizeBy": "none",
+<<<<<<< HEAD
             "modifiedTime": "2018-05-15T05:21:25.81",
             "structureModifiedTime": "2018-05-15T05:21:25.606667",
             "refreshedTime": "2018-05-15T05:21:25.81",
@@ -109,22 +186,43 @@
               "state": "ready",
               "modifiedTime": "2018-05-15T05:21:25.81",
               "refreshedTime": "2018-05-15T05:21:25.81"
+=======
+            "modifiedTime": "2018-05-15T05:18:03.256667",
+            "structureModifiedTime": "2018-05-15T05:18:03.06",
+            "refreshedTime": "2018-05-15T05:18:03.256667",
+            "attributeHierarchy": {
+              "state": "ready",
+              "modifiedTime": "2018-05-15T05:18:03.256667",
+              "refreshedTime": "2018-05-15T05:18:03.256667"
+>>>>>>> origin/master
             },
             "annotations": [
               {
                 "name": "SummarizationSetBy",
                 "value": "User",
+<<<<<<< HEAD
                 "modifiedTime": "2018-05-15T05:21:25.606667"
+=======
+                "modifiedTime": "2018-05-15T05:18:03.06"
+>>>>>>> origin/master
               },
               {
                 "name": "TemplateId",
                 "value": "Year",
+<<<<<<< HEAD
                 "modifiedTime": "2018-05-15T05:21:25.606667"
+=======
+                "modifiedTime": "2018-05-15T05:18:03.06"
+>>>>>>> origin/master
               },
               {
                 "name": "Format",
                 "value": "<Format Format=\"NumberWhole\" Accuracy=\"0\" />",
+<<<<<<< HEAD
                 "modifiedTime": "2018-05-15T05:21:25.606667"
+=======
+                "modifiedTime": "2018-05-15T05:18:03.06"
+>>>>>>> origin/master
               }
             ]
           },
@@ -138,6 +236,7 @@
             "formatString": "0",
             "dataCategory": "MonthOfYear",
             "summarizeBy": "none",
+<<<<<<< HEAD
             "modifiedTime": "2018-05-15T05:21:25.81",
             "structureModifiedTime": "2018-05-15T05:21:25.606667",
             "refreshedTime": "2018-05-15T05:21:25.81",
@@ -145,22 +244,43 @@
               "state": "ready",
               "modifiedTime": "2018-05-15T05:21:25.81",
               "refreshedTime": "2018-05-15T05:21:25.81"
+=======
+            "modifiedTime": "2018-05-15T05:18:03.256667",
+            "structureModifiedTime": "2018-05-15T05:18:03.06",
+            "refreshedTime": "2018-05-15T05:18:03.256667",
+            "attributeHierarchy": {
+              "state": "ready",
+              "modifiedTime": "2018-05-15T05:18:03.256667",
+              "refreshedTime": "2018-05-15T05:18:03.256667"
+>>>>>>> origin/master
             },
             "annotations": [
               {
                 "name": "SummarizationSetBy",
                 "value": "User",
+<<<<<<< HEAD
                 "modifiedTime": "2018-05-15T05:21:25.606667"
+=======
+                "modifiedTime": "2018-05-15T05:18:03.06"
+>>>>>>> origin/master
               },
               {
                 "name": "TemplateId",
                 "value": "MonthNumber",
+<<<<<<< HEAD
                 "modifiedTime": "2018-05-15T05:21:25.606667"
+=======
+                "modifiedTime": "2018-05-15T05:18:03.06"
+>>>>>>> origin/master
               },
               {
                 "name": "Format",
                 "value": "<Format Format=\"NumberWhole\" Accuracy=\"0\" />",
+<<<<<<< HEAD
                 "modifiedTime": "2018-05-15T05:21:25.606667"
+=======
+                "modifiedTime": "2018-05-15T05:18:03.06"
+>>>>>>> origin/master
               }
             ]
           },
@@ -174,6 +294,7 @@
             "sortByColumn": "MonthNo",
             "dataCategory": "Months",
             "summarizeBy": "none",
+<<<<<<< HEAD
             "modifiedTime": "2018-05-15T05:21:25.81",
             "structureModifiedTime": "2018-05-15T05:21:25.606667",
             "refreshedTime": "2018-05-15T05:21:25.81",
@@ -181,22 +302,43 @@
               "state": "ready",
               "modifiedTime": "2018-05-15T05:21:25.81",
               "refreshedTime": "2018-05-15T05:21:25.81"
+=======
+            "modifiedTime": "2018-05-15T05:18:03.256667",
+            "structureModifiedTime": "2018-05-15T05:18:03.06",
+            "refreshedTime": "2018-05-15T05:18:03.256667",
+            "attributeHierarchy": {
+              "state": "ready",
+              "modifiedTime": "2018-05-15T05:18:03.26",
+              "refreshedTime": "2018-05-15T05:18:03.26"
+>>>>>>> origin/master
             },
             "annotations": [
               {
                 "name": "SummarizationSetBy",
                 "value": "User",
+<<<<<<< HEAD
                 "modifiedTime": "2018-05-15T05:21:25.606667"
+=======
+                "modifiedTime": "2018-05-15T05:18:03.06"
+>>>>>>> origin/master
               },
               {
                 "name": "TemplateId",
                 "value": "Month",
+<<<<<<< HEAD
                 "modifiedTime": "2018-05-15T05:21:25.606667"
+=======
+                "modifiedTime": "2018-05-15T05:18:03.06"
+>>>>>>> origin/master
               },
               {
                 "name": "Format",
                 "value": "<Format Format=\"Text\" />",
+<<<<<<< HEAD
                 "modifiedTime": "2018-05-15T05:21:25.606667"
+=======
+                "modifiedTime": "2018-05-15T05:18:03.06"
+>>>>>>> origin/master
               }
             ]
           },
@@ -210,6 +352,7 @@
             "formatString": "0",
             "dataCategory": "QuarterOfYear",
             "summarizeBy": "none",
+<<<<<<< HEAD
             "modifiedTime": "2018-05-15T05:21:25.81",
             "structureModifiedTime": "2018-05-15T05:21:25.606667",
             "refreshedTime": "2018-05-15T05:21:25.81",
@@ -217,22 +360,43 @@
               "state": "ready",
               "modifiedTime": "2018-05-15T05:21:25.81",
               "refreshedTime": "2018-05-15T05:21:25.81"
+=======
+            "modifiedTime": "2018-05-15T05:18:03.26",
+            "structureModifiedTime": "2018-05-15T05:18:03.06",
+            "refreshedTime": "2018-05-15T05:18:03.26",
+            "attributeHierarchy": {
+              "state": "ready",
+              "modifiedTime": "2018-05-15T05:18:03.26",
+              "refreshedTime": "2018-05-15T05:18:03.26"
+>>>>>>> origin/master
             },
             "annotations": [
               {
                 "name": "SummarizationSetBy",
                 "value": "User",
+<<<<<<< HEAD
                 "modifiedTime": "2018-05-15T05:21:25.606667"
+=======
+                "modifiedTime": "2018-05-15T05:18:03.06"
+>>>>>>> origin/master
               },
               {
                 "name": "TemplateId",
                 "value": "QuarterNumber",
+<<<<<<< HEAD
                 "modifiedTime": "2018-05-15T05:21:25.606667"
+=======
+                "modifiedTime": "2018-05-15T05:18:03.06"
+>>>>>>> origin/master
               },
               {
                 "name": "Format",
                 "value": "<Format Format=\"NumberWhole\" Accuracy=\"0\" />",
+<<<<<<< HEAD
                 "modifiedTime": "2018-05-15T05:21:25.606667"
+=======
+                "modifiedTime": "2018-05-15T05:18:03.06"
+>>>>>>> origin/master
               }
             ]
           },
@@ -246,6 +410,7 @@
             "sortByColumn": "QuarterNo",
             "dataCategory": "Quarters",
             "summarizeBy": "none",
+<<<<<<< HEAD
             "modifiedTime": "2018-05-15T05:21:25.813333",
             "structureModifiedTime": "2018-05-15T05:21:25.606667",
             "refreshedTime": "2018-05-15T05:21:25.813333",
@@ -253,22 +418,43 @@
               "state": "ready",
               "modifiedTime": "2018-05-15T05:21:25.813333",
               "refreshedTime": "2018-05-15T05:21:25.813333"
+=======
+            "modifiedTime": "2018-05-15T05:18:03.26",
+            "structureModifiedTime": "2018-05-15T05:18:03.06",
+            "refreshedTime": "2018-05-15T05:18:03.26",
+            "attributeHierarchy": {
+              "state": "ready",
+              "modifiedTime": "2018-05-15T05:18:03.26",
+              "refreshedTime": "2018-05-15T05:18:03.26"
+>>>>>>> origin/master
             },
             "annotations": [
               {
                 "name": "SummarizationSetBy",
                 "value": "User",
+<<<<<<< HEAD
                 "modifiedTime": "2018-05-15T05:21:25.606667"
+=======
+                "modifiedTime": "2018-05-15T05:18:03.06"
+>>>>>>> origin/master
               },
               {
                 "name": "TemplateId",
                 "value": "Quarter",
+<<<<<<< HEAD
                 "modifiedTime": "2018-05-15T05:21:25.606667"
+=======
+                "modifiedTime": "2018-05-15T05:18:03.06"
+>>>>>>> origin/master
               },
               {
                 "name": "Format",
                 "value": "<Format Format=\"Text\" />",
+<<<<<<< HEAD
                 "modifiedTime": "2018-05-15T05:21:25.606667"
+=======
+                "modifiedTime": "2018-05-15T05:18:03.06"
+>>>>>>> origin/master
               }
             ]
           },
@@ -282,6 +468,7 @@
             "formatString": "0",
             "dataCategory": "DayOfMonth",
             "summarizeBy": "none",
+<<<<<<< HEAD
             "modifiedTime": "2018-05-15T05:21:25.81",
             "structureModifiedTime": "2018-05-15T05:21:25.606667",
             "refreshedTime": "2018-05-15T05:21:25.81",
@@ -289,22 +476,43 @@
               "state": "ready",
               "modifiedTime": "2018-05-15T05:21:25.81",
               "refreshedTime": "2018-05-15T05:21:25.81"
+=======
+            "modifiedTime": "2018-05-15T05:18:03.256667",
+            "structureModifiedTime": "2018-05-15T05:18:03.06",
+            "refreshedTime": "2018-05-15T05:18:03.256667",
+            "attributeHierarchy": {
+              "state": "ready",
+              "modifiedTime": "2018-05-15T05:18:03.256667",
+              "refreshedTime": "2018-05-15T05:18:03.256667"
+>>>>>>> origin/master
             },
             "annotations": [
               {
                 "name": "SummarizationSetBy",
                 "value": "User",
+<<<<<<< HEAD
                 "modifiedTime": "2018-05-15T05:21:25.606667"
+=======
+                "modifiedTime": "2018-05-15T05:18:03.06"
+>>>>>>> origin/master
               },
               {
                 "name": "TemplateId",
                 "value": "Day",
+<<<<<<< HEAD
                 "modifiedTime": "2018-05-15T05:21:25.606667"
+=======
+                "modifiedTime": "2018-05-15T05:18:03.06"
+>>>>>>> origin/master
               },
               {
                 "name": "Format",
                 "value": "<Format Format=\"NumberWhole\" Accuracy=\"0\" />",
+<<<<<<< HEAD
                 "modifiedTime": "2018-05-15T05:21:25.606667"
+=======
+                "modifiedTime": "2018-05-15T05:18:03.06"
+>>>>>>> origin/master
               }
             ]
           }
@@ -314,8 +522,13 @@
             "name": "DateTableTemplate_748c43e9-7205-403d-aafe-1be251792acd-affe90eb-a625-4ca4-9926-04fb527c7e92",
             "mode": "import",
             "state": "ready",
+<<<<<<< HEAD
             "modifiedTime": "2018-05-15T05:21:25.806667",
             "refreshedTime": "2018-05-15T05:21:25.806667",
+=======
+            "modifiedTime": "2018-05-15T05:18:03.256667",
+            "refreshedTime": "2018-05-15T05:18:03.256667",
+>>>>>>> origin/master
             "source": {
               "type": "calculated",
               "expression": "Calendar(Date(2015,1,1), Date(2015,1,1))"
@@ -326,40 +539,66 @@
           {
             "name": "Date Hierarchy",
             "state": "ready",
+<<<<<<< HEAD
             "modifiedTime": "2018-05-15T05:21:25.813333",
             "structureModifiedTime": "2018-05-15T05:21:25.606667",
             "refreshedTime": "2018-05-15T05:21:25.813333",
+=======
+            "modifiedTime": "2018-05-15T05:18:03.263333",
+            "structureModifiedTime": "2018-05-15T05:18:03.06",
+            "refreshedTime": "2018-05-15T05:18:03.263333",
+>>>>>>> origin/master
             "levels": [
               {
                 "name": "Year",
                 "ordinal": 0,
                 "column": "Year",
+<<<<<<< HEAD
                 "modifiedTime": "2018-05-15T05:21:25.606667"
+=======
+                "modifiedTime": "2018-05-15T05:18:03.06"
+>>>>>>> origin/master
               },
               {
                 "name": "Quarter",
                 "ordinal": 1,
                 "column": "Quarter",
+<<<<<<< HEAD
                 "modifiedTime": "2018-05-15T05:21:25.606667"
+=======
+                "modifiedTime": "2018-05-15T05:18:03.06"
+>>>>>>> origin/master
               },
               {
                 "name": "Month",
                 "ordinal": 2,
                 "column": "Month",
+<<<<<<< HEAD
                 "modifiedTime": "2018-05-15T05:21:25.606667"
+=======
+                "modifiedTime": "2018-05-15T05:18:03.06"
+>>>>>>> origin/master
               },
               {
                 "name": "Day",
                 "ordinal": 3,
                 "column": "Day",
+<<<<<<< HEAD
                 "modifiedTime": "2018-05-15T05:21:25.606667"
+=======
+                "modifiedTime": "2018-05-15T05:18:03.06"
+>>>>>>> origin/master
               }
             ],
             "annotations": [
               {
                 "name": "TemplateId",
                 "value": "DateHierarchy",
+<<<<<<< HEAD
                 "modifiedTime": "2018-05-15T05:21:25.606667"
+=======
+                "modifiedTime": "2018-05-15T05:18:03.06"
+>>>>>>> origin/master
               }
             ]
           }
@@ -368,19 +607,32 @@
           {
             "name": "__PBI_TemplateDateTable",
             "value": "true",
+<<<<<<< HEAD
             "modifiedTime": "2018-05-15T05:21:25.606667"
+=======
+            "modifiedTime": "2018-05-15T05:18:03.06"
+>>>>>>> origin/master
           },
           {
             "name": "DefaultItem",
             "value": "DateHierarchy",
+<<<<<<< HEAD
             "modifiedTime": "2018-05-15T05:21:25.606667"
+=======
+            "modifiedTime": "2018-05-15T05:18:03.06"
+>>>>>>> origin/master
           }
         ]
       },
       {
         "name": "Table1",
+<<<<<<< HEAD
         "modifiedTime": "2018-05-15T05:21:25.606667",
         "structureModifiedTime": "2018-05-15T05:21:25.606667",
+=======
+        "modifiedTime": "2018-05-15T05:18:06.75",
+        "structureModifiedTime": "2018-05-15T05:18:06.75",
+>>>>>>> origin/master
         "columns": [
           {
             "type": "rowNumber",
@@ -390,6 +642,7 @@
             "isUnique": true,
             "isKey": true,
             "isNullable": false,
+<<<<<<< HEAD
             "modifiedTime": "2018-05-15T05:21:25.613333",
             "structureModifiedTime": "2018-05-15T05:21:25.606667",
             "refreshedTime": "1699-12-31T00:00:00",
@@ -397,6 +650,15 @@
               "state": "ready",
               "modifiedTime": "2018-05-15T05:21:25.803333",
               "refreshedTime": "2018-05-15T05:21:32.95"
+=======
+            "modifiedTime": "2018-05-15T05:18:06.766667",
+            "structureModifiedTime": "2018-05-15T05:18:06.75",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "state": "ready",
+              "modifiedTime": "2018-05-15T05:18:10.776667",
+              "refreshedTime": "2018-05-15T05:18:10.776667"
+>>>>>>> origin/master
             }
           },
           {
@@ -405,6 +667,7 @@
             "sourceColumn": "Column1",
             "formatString": "0",
             "summarizeBy": "none",
+<<<<<<< HEAD
             "modifiedTime": "2018-05-15T05:21:25.606667",
             "structureModifiedTime": "2018-05-15T05:21:25.606667",
             "refreshedTime": "1699-12-31T00:00:00",
@@ -412,66 +675,117 @@
               "state": "ready",
               "modifiedTime": "2018-05-15T05:21:25.8",
               "refreshedTime": "2018-05-15T05:21:32.95"
+=======
+            "modifiedTime": "2018-05-15T05:18:11.033333",
+            "structureModifiedTime": "2018-05-15T05:18:06.75",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "state": "ready",
+              "modifiedTime": "2018-05-15T05:18:10.776667",
+              "refreshedTime": "2018-05-15T05:18:10.776667"
+>>>>>>> origin/master
             },
             "annotations": [
               {
                 "name": "SummarizationSetBy",
                 "value": "Automatic",
+<<<<<<< HEAD
                 "modifiedTime": "2018-05-15T05:21:25.606667"
+=======
+                "modifiedTime": "2018-05-15T05:18:06.75"
+>>>>>>> origin/master
               },
               {
                 "name": "Format",
                 "value": "<Format Format=\"NumberWhole\" Accuracy=\"0\" />",
+<<<<<<< HEAD
                 "modifiedTime": "2018-05-15T05:21:25.606667"
+=======
+                "modifiedTime": "2018-05-15T05:18:06.75"
+>>>>>>> origin/master
               },
               {
                 "name": "DataTypeAtRefresh",
                 "value": "Int64#####not a type",
+<<<<<<< HEAD
                 "modifiedTime": "2018-05-15T05:21:25.606667"
+=======
+                "modifiedTime": "2018-05-15T05:18:06.783333"
+>>>>>>> origin/master
               },
               {
                 "name": "PBI_NameAtRefresh",
                 "value": "Column1",
+<<<<<<< HEAD
                 "modifiedTime": "2018-05-15T05:21:25.606667"
+=======
+                "modifiedTime": "2018-05-15T05:18:06.783333"
+>>>>>>> origin/master
               },
               {
                 "name": "PBI_WasHiddenAtRefresh",
                 "value": "False",
+<<<<<<< HEAD
                 "modifiedTime": "2018-05-15T05:21:25.606667"
+=======
+                "modifiedTime": "2018-05-15T05:18:06.783333"
+>>>>>>> origin/master
               }
             ]
           }
         ],
         "partitions": [
           {
-            "name": "Table1-28adc9ef-f877-4eaa-89cd-588bfd91a1bf",
+            "name": "Table1-bbd8f9e7-d70a-4efd-a465-79a0dd8501e2",
             "mode": "import",
             "state": "ready",
+<<<<<<< HEAD
             "modifiedTime": "2018-05-15T05:21:32.933333",
             "refreshedTime": "2018-05-15T05:21:32.933333",
             "source": {
               "query": "SELECT * FROM [Table1]",
               "dataSource": "cfed657e-0a9e-45ed-8aa1-f356e595194e"
+=======
+            "modifiedTime": "2018-05-15T05:18:10.746667",
+            "refreshedTime": "2018-05-15T05:18:10.746667",
+            "source": {
+              "query": "SELECT * FROM [Table1]",
+              "dataSource": "019609f3-a301-47b4-ac6b-1aabd330005d"
+>>>>>>> origin/master
             }
           }
         ],
         "annotations": [
           {
             "name": "PBI_Id",
+<<<<<<< HEAD
             "value": "a25de0da-d7fa-436e-90f5-cd6552b1f620",
             "modifiedTime": "2018-05-15T05:21:25.606667"
+=======
+            "value": "e0c4736f-de1f-414a-ac20-0f89348f427e",
+            "modifiedTime": "2018-05-15T05:18:06.783333"
+>>>>>>> origin/master
           },
           {
             "name": "LinkedQueryName",
             "value": "Table1",
+<<<<<<< HEAD
             "modifiedTime": "2018-05-15T05:21:25.606667"
+=======
+            "modifiedTime": "2018-05-15T05:18:06.783333"
+>>>>>>> origin/master
           }
         ]
       },
       {
         "name": "Table2",
+<<<<<<< HEAD
         "modifiedTime": "2018-05-15T05:21:25.606667",
         "structureModifiedTime": "2018-05-15T05:21:25.606667",
+=======
+        "modifiedTime": "2018-05-15T05:18:06.783333",
+        "structureModifiedTime": "2018-05-15T05:18:06.783333",
+>>>>>>> origin/master
         "columns": [
           {
             "type": "rowNumber",
@@ -481,6 +795,7 @@
             "isUnique": true,
             "isKey": true,
             "isNullable": false,
+<<<<<<< HEAD
             "modifiedTime": "2018-05-15T05:21:25.613333",
             "structureModifiedTime": "2018-05-15T05:21:25.606667",
             "refreshedTime": "1699-12-31T00:00:00",
@@ -488,6 +803,15 @@
               "state": "ready",
               "modifiedTime": "2018-05-15T05:21:25.8",
               "refreshedTime": "2018-05-15T05:21:32.126667"
+=======
+            "modifiedTime": "2018-05-15T05:18:06.783333",
+            "structureModifiedTime": "2018-05-15T05:18:06.783333",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "state": "ready",
+              "modifiedTime": "2018-05-15T05:18:09.726667",
+              "refreshedTime": "2018-05-15T05:18:09.726667"
+>>>>>>> origin/master
             }
           },
           {
@@ -496,6 +820,7 @@
             "sourceColumn": "Column1",
             "formatString": "0",
             "summarizeBy": "none",
+<<<<<<< HEAD
             "modifiedTime": "2018-05-15T05:21:25.606667",
             "structureModifiedTime": "2018-05-15T05:21:25.606667",
             "refreshedTime": "1699-12-31T00:00:00",
@@ -503,66 +828,117 @@
               "state": "ready",
               "modifiedTime": "2018-05-15T05:21:25.8",
               "refreshedTime": "2018-05-15T05:21:32.126667"
+=======
+            "modifiedTime": "2018-05-15T05:18:11.033333",
+            "structureModifiedTime": "2018-05-15T05:18:06.783333",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "state": "ready",
+              "modifiedTime": "2018-05-15T05:18:09.726667",
+              "refreshedTime": "2018-05-15T05:18:09.726667"
+>>>>>>> origin/master
             },
             "annotations": [
               {
                 "name": "SummarizationSetBy",
                 "value": "Automatic",
+<<<<<<< HEAD
                 "modifiedTime": "2018-05-15T05:21:25.606667"
+=======
+                "modifiedTime": "2018-05-15T05:18:06.783333"
+>>>>>>> origin/master
               },
               {
                 "name": "Format",
                 "value": "<Format Format=\"NumberWhole\" Accuracy=\"0\" />",
+<<<<<<< HEAD
                 "modifiedTime": "2018-05-15T05:21:25.606667"
+=======
+                "modifiedTime": "2018-05-15T05:18:06.783333"
+>>>>>>> origin/master
               },
               {
                 "name": "DataTypeAtRefresh",
                 "value": "Int64#####not a type",
+<<<<<<< HEAD
                 "modifiedTime": "2018-05-15T05:21:25.606667"
+=======
+                "modifiedTime": "2018-05-15T05:18:06.796667"
+>>>>>>> origin/master
               },
               {
                 "name": "PBI_NameAtRefresh",
                 "value": "Column1",
+<<<<<<< HEAD
                 "modifiedTime": "2018-05-15T05:21:25.606667"
+=======
+                "modifiedTime": "2018-05-15T05:18:06.796667"
+>>>>>>> origin/master
               },
               {
                 "name": "PBI_WasHiddenAtRefresh",
                 "value": "False",
+<<<<<<< HEAD
                 "modifiedTime": "2018-05-15T05:21:25.606667"
+=======
+                "modifiedTime": "2018-05-15T05:18:06.796667"
+>>>>>>> origin/master
               }
             ]
           }
         ],
         "partitions": [
           {
-            "name": "Table2-6fc60638-0cf4-4dc9-9fba-d6afb2a00d06",
+            "name": "Table2-4c1c1df4-cf4e-4dba-ad94-29a3af24ba75",
             "mode": "import",
             "state": "ready",
+<<<<<<< HEAD
             "modifiedTime": "2018-05-15T05:21:32.063333",
             "refreshedTime": "2018-05-15T05:21:32.063333",
             "source": {
               "query": "SELECT * FROM [Table2]",
               "dataSource": "69189f20-1ef7-4a6e-b35c-db5d4ad053c5"
+=======
+            "modifiedTime": "2018-05-15T05:18:09.663333",
+            "refreshedTime": "2018-05-15T05:18:09.663333",
+            "source": {
+              "query": "SELECT * FROM [Table2]",
+              "dataSource": "a21aa397-e110-452a-9421-d13eec129e10"
+>>>>>>> origin/master
             }
           }
         ],
         "annotations": [
           {
             "name": "PBI_Id",
+<<<<<<< HEAD
             "value": "9c55fc84-b7f3-4634-9c48-38279032d57f",
             "modifiedTime": "2018-05-15T05:21:25.606667"
+=======
+            "value": "9658c61d-7e5c-4d81-91c4-61060dd52723",
+            "modifiedTime": "2018-05-15T05:18:06.796667"
+>>>>>>> origin/master
           },
           {
             "name": "LinkedQueryName",
             "value": "Table2",
+<<<<<<< HEAD
             "modifiedTime": "2018-05-15T05:21:25.606667"
+=======
+            "modifiedTime": "2018-05-15T05:18:06.796667"
+>>>>>>> origin/master
           }
         ]
       },
       {
         "name": "Table3",
+<<<<<<< HEAD
         "modifiedTime": "2018-05-15T05:21:25.606667",
         "structureModifiedTime": "2018-05-15T05:21:25.606667",
+=======
+        "modifiedTime": "2018-05-15T05:18:06.796667",
+        "structureModifiedTime": "2018-05-15T05:18:06.796667",
+>>>>>>> origin/master
         "columns": [
           {
             "type": "rowNumber",
@@ -572,6 +948,7 @@
             "isUnique": true,
             "isKey": true,
             "isNullable": false,
+<<<<<<< HEAD
             "modifiedTime": "2018-05-15T05:21:25.613333",
             "structureModifiedTime": "2018-05-15T05:21:25.606667",
             "refreshedTime": "1699-12-31T00:00:00",
@@ -579,6 +956,15 @@
               "state": "ready",
               "modifiedTime": "2018-05-15T05:21:25.8",
               "refreshedTime": "2018-05-15T05:21:32.18"
+=======
+            "modifiedTime": "2018-05-15T05:18:06.796667",
+            "structureModifiedTime": "2018-05-15T05:18:06.796667",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "state": "ready",
+              "modifiedTime": "2018-05-15T05:18:09.926667",
+              "refreshedTime": "2018-05-15T05:18:09.926667"
+>>>>>>> origin/master
             }
           },
           {
@@ -587,6 +973,7 @@
             "sourceColumn": "Column1",
             "formatString": "0",
             "summarizeBy": "none",
+<<<<<<< HEAD
             "modifiedTime": "2018-05-15T05:21:25.606667",
             "structureModifiedTime": "2018-05-15T05:21:25.606667",
             "refreshedTime": "1699-12-31T00:00:00",
@@ -594,66 +981,117 @@
               "state": "ready",
               "modifiedTime": "2018-05-15T05:21:25.8",
               "refreshedTime": "2018-05-15T05:21:32.18"
+=======
+            "modifiedTime": "2018-05-15T05:18:11.063333",
+            "structureModifiedTime": "2018-05-15T05:18:06.796667",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "state": "ready",
+              "modifiedTime": "2018-05-15T05:18:09.926667",
+              "refreshedTime": "2018-05-15T05:18:09.926667"
+>>>>>>> origin/master
             },
             "annotations": [
               {
                 "name": "SummarizationSetBy",
                 "value": "Automatic",
+<<<<<<< HEAD
                 "modifiedTime": "2018-05-15T05:21:25.606667"
+=======
+                "modifiedTime": "2018-05-15T05:18:06.796667"
+>>>>>>> origin/master
               },
               {
                 "name": "Format",
                 "value": "<Format Format=\"NumberWhole\" Accuracy=\"0\" />",
+<<<<<<< HEAD
                 "modifiedTime": "2018-05-15T05:21:25.606667"
+=======
+                "modifiedTime": "2018-05-15T05:18:06.796667"
+>>>>>>> origin/master
               },
               {
                 "name": "DataTypeAtRefresh",
                 "value": "Int64#####not a type",
+<<<<<<< HEAD
                 "modifiedTime": "2018-05-15T05:21:25.606667"
+=======
+                "modifiedTime": "2018-05-15T05:18:06.833333"
+>>>>>>> origin/master
               },
               {
                 "name": "PBI_NameAtRefresh",
                 "value": "Column1",
+<<<<<<< HEAD
                 "modifiedTime": "2018-05-15T05:21:25.606667"
+=======
+                "modifiedTime": "2018-05-15T05:18:06.833333"
+>>>>>>> origin/master
               },
               {
                 "name": "PBI_WasHiddenAtRefresh",
                 "value": "False",
+<<<<<<< HEAD
                 "modifiedTime": "2018-05-15T05:21:25.606667"
+=======
+                "modifiedTime": "2018-05-15T05:18:06.833333"
+>>>>>>> origin/master
               }
             ]
           }
         ],
         "partitions": [
           {
-            "name": "Table3-e8407504-039a-4879-8cfc-a6ef5a4dc7f2",
+            "name": "Table3-623a57da-c4be-4572-95ff-35755fd8098b",
             "mode": "import",
             "state": "ready",
+<<<<<<< HEAD
             "modifiedTime": "2018-05-15T05:21:32.156667",
             "refreshedTime": "2018-05-15T05:21:32.156667",
             "source": {
               "query": "SELECT * FROM [Table3]",
               "dataSource": "3aaa36f5-e699-4da9-bf71-5b04d662d626"
+=======
+            "modifiedTime": "2018-05-15T05:18:09.896667",
+            "refreshedTime": "2018-05-15T05:18:09.896667",
+            "source": {
+              "query": "SELECT * FROM [Table3]",
+              "dataSource": "46cbf73e-7837-4107-bfd3-3382c8dcef0a"
+>>>>>>> origin/master
             }
           }
         ],
         "annotations": [
           {
             "name": "PBI_Id",
+<<<<<<< HEAD
             "value": "7b173538-8b0f-4dfa-a8bf-619f1f666580",
             "modifiedTime": "2018-05-15T05:21:25.606667"
+=======
+            "value": "2c3a2e3b-354a-4282-bd04-c505766f21ab",
+            "modifiedTime": "2018-05-15T05:18:06.833333"
+>>>>>>> origin/master
           },
           {
             "name": "LinkedQueryName",
             "value": "Table3",
+<<<<<<< HEAD
             "modifiedTime": "2018-05-15T05:21:25.606667"
+=======
+            "modifiedTime": "2018-05-15T05:18:06.833333"
+>>>>>>> origin/master
           }
         ]
       },
       {
         "name": "Table4",
+<<<<<<< HEAD
         "modifiedTime": "2018-05-15T05:21:25.606667",
         "structureModifiedTime": "2018-05-15T05:21:25.606667",
+=======
+        "modifiedTime": "2018-05-15T05:18:06.83",
+        "structureModifiedTime": "2018-05-15T05:18:06.83",
+>>>>>>> origin/master
         "columns": [
           {
             "type": "rowNumber",
@@ -663,6 +1101,7 @@
             "isUnique": true,
             "isKey": true,
             "isNullable": false,
+<<<<<<< HEAD
             "modifiedTime": "2018-05-15T05:21:25.613333",
             "structureModifiedTime": "2018-05-15T05:21:25.606667",
             "refreshedTime": "1699-12-31T00:00:00",
@@ -670,6 +1109,15 @@
               "state": "ready",
               "modifiedTime": "2018-05-15T05:21:25.8",
               "refreshedTime": "2018-05-15T05:21:32.126667"
+=======
+            "modifiedTime": "2018-05-15T05:18:06.833333",
+            "structureModifiedTime": "2018-05-15T05:18:06.833333",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "state": "ready",
+              "modifiedTime": "2018-05-15T05:18:09.74",
+              "refreshedTime": "2018-05-15T05:18:09.74"
+>>>>>>> origin/master
             }
           },
           {
@@ -678,6 +1126,7 @@
             "sourceColumn": "Column1",
             "formatString": "0",
             "summarizeBy": "none",
+<<<<<<< HEAD
             "modifiedTime": "2018-05-15T05:21:25.606667",
             "structureModifiedTime": "2018-05-15T05:21:25.606667",
             "refreshedTime": "1699-12-31T00:00:00",
@@ -685,105 +1134,275 @@
               "state": "ready",
               "modifiedTime": "2018-05-15T05:21:25.803333",
               "refreshedTime": "2018-05-15T05:21:32.126667"
+=======
+            "modifiedTime": "2018-05-15T05:18:11.096667",
+            "structureModifiedTime": "2018-05-15T05:18:06.833333",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "state": "ready",
+              "modifiedTime": "2018-05-15T05:18:09.74",
+              "refreshedTime": "2018-05-15T05:18:09.74"
+>>>>>>> origin/master
             },
             "annotations": [
               {
                 "name": "SummarizationSetBy",
                 "value": "Automatic",
+<<<<<<< HEAD
                 "modifiedTime": "2018-05-15T05:21:25.606667"
+=======
+                "modifiedTime": "2018-05-15T05:18:06.833333"
+>>>>>>> origin/master
               },
               {
                 "name": "Format",
                 "value": "<Format Format=\"NumberWhole\" Accuracy=\"0\" />",
+<<<<<<< HEAD
                 "modifiedTime": "2018-05-15T05:21:25.606667"
+=======
+                "modifiedTime": "2018-05-15T05:18:06.833333"
+>>>>>>> origin/master
               },
               {
                 "name": "DataTypeAtRefresh",
                 "value": "Int64#####not a type",
+<<<<<<< HEAD
                 "modifiedTime": "2018-05-15T05:21:25.606667"
+=======
+                "modifiedTime": "2018-05-15T05:18:06.846667"
+>>>>>>> origin/master
               },
               {
                 "name": "PBI_NameAtRefresh",
                 "value": "Column1",
+<<<<<<< HEAD
                 "modifiedTime": "2018-05-15T05:21:25.606667"
+=======
+                "modifiedTime": "2018-05-15T05:18:06.846667"
+>>>>>>> origin/master
               },
               {
                 "name": "PBI_WasHiddenAtRefresh",
                 "value": "False",
+<<<<<<< HEAD
                 "modifiedTime": "2018-05-15T05:21:25.606667"
+=======
+                "modifiedTime": "2018-05-15T05:18:06.846667"
+>>>>>>> origin/master
               }
             ]
           }
         ],
         "partitions": [
           {
-            "name": "Table4-28bb1b37-11ce-409d-bdae-8eef8aeaf0a1",
+            "name": "Table4-822cc28e-19f1-43da-b4c7-1cd643768a43",
             "mode": "import",
             "state": "ready",
+<<<<<<< HEAD
             "modifiedTime": "2018-05-15T05:21:32.063333",
             "refreshedTime": "2018-05-15T05:21:32.063333",
             "source": {
               "query": "SELECT * FROM [Table4]",
               "dataSource": "c4c85c08-b3c3-4af4-ac10-8880dd045dc7"
+=======
+            "modifiedTime": "2018-05-15T05:18:09.74",
+            "refreshedTime": "2018-05-15T05:18:09.74",
+            "source": {
+              "query": "SELECT * FROM [Table4]",
+              "dataSource": "ad46b81a-30ea-4b98-a9f1-e8d1f652ccaa"
+>>>>>>> origin/master
             }
           }
         ],
         "annotations": [
           {
             "name": "PBI_Id",
+<<<<<<< HEAD
             "value": "8998edda-7872-4b87-bf8e-ca58ce15f54f",
             "modifiedTime": "2018-05-15T05:21:25.606667"
+=======
+            "value": "4c98245b-fc5d-408a-87fc-712dda5eb97e",
+            "modifiedTime": "2018-05-15T05:18:06.846667"
+>>>>>>> origin/master
           },
           {
             "name": "LinkedQueryName",
             "value": "Table4",
+<<<<<<< HEAD
             "modifiedTime": "2018-05-15T05:21:25.606667"
+=======
+            "modifiedTime": "2018-05-15T05:18:06.846667"
+          }
+        ]
+      },
+      {
+        "name": "Table5",
+        "modifiedTime": "2018-05-15T05:18:44.113333",
+        "structureModifiedTime": "2018-05-15T05:18:44.113333",
+        "columns": [
+          {
+            "type": "rowNumber",
+            "name": "RowNumber-2662979B-1795-4F74-8F37-6A1BA8059B61",
+            "dataType": "int64",
+            "isHidden": true,
+            "isUnique": true,
+            "isKey": true,
+            "isNullable": false,
+            "modifiedTime": "2018-05-15T05:18:44.113333",
+            "structureModifiedTime": "2018-05-15T05:18:44.113333",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "state": "ready",
+              "modifiedTime": "2018-05-15T05:18:44.16",
+              "refreshedTime": "2018-05-15T05:18:44.16"
+            }
+          },
+          {
+            "name": "Column1",
+            "dataType": "int64",
+            "sourceColumn": "Column1",
+            "formatString": "0",
+            "summarizeBy": "none",
+            "modifiedTime": "2018-05-15T05:18:44.303333",
+            "structureModifiedTime": "2018-05-15T05:18:44.113333",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "state": "ready",
+              "modifiedTime": "2018-05-15T05:18:44.16",
+              "refreshedTime": "2018-05-15T05:18:44.16"
+            },
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic",
+                "modifiedTime": "2018-05-15T05:18:44.113333"
+              },
+              {
+                "name": "Format",
+                "value": "<Format Format=\"NumberWhole\" Accuracy=\"0\" />",
+                "modifiedTime": "2018-05-15T05:18:44.113333"
+              },
+              {
+                "name": "DataTypeAtRefresh",
+                "value": "Int64#####not a type",
+                "modifiedTime": "2018-05-15T05:18:44.126667"
+              },
+              {
+                "name": "PBI_NameAtRefresh",
+                "value": "Column1",
+                "modifiedTime": "2018-05-15T05:18:44.126667"
+              },
+              {
+                "name": "PBI_WasHiddenAtRefresh",
+                "value": "False",
+                "modifiedTime": "2018-05-15T05:18:44.126667"
+              }
+            ]
+          }
+        ],
+        "partitions": [
+          {
+            "name": "Table5-86ad35e9-216a-455f-ae68-0d7773ad1cb2",
+            "mode": "import",
+            "state": "ready",
+            "modifiedTime": "2018-05-15T05:18:44.16",
+            "refreshedTime": "2018-05-15T05:18:44.16",
+            "source": {
+              "query": "SELECT * FROM [Table5]",
+              "dataSource": "2f7cad70-cebb-4969-b5bc-1dd006816d08"
+            }
+          }
+        ],
+        "annotations": [
+          {
+            "name": "PBI_Id",
+            "value": "99e4546e-141b-4f32-b929-cd935824e4c2",
+            "modifiedTime": "2018-05-15T05:18:44.126667"
+          },
+          {
+            "name": "LinkedQueryName",
+            "value": "Table5",
+            "modifiedTime": "2018-05-15T05:18:44.126667"
+>>>>>>> origin/master
           }
         ]
       }
     ],
     "relationships": [
       {
-        "name": "b1a74d53-6d5c-4481-8e0e-61cd7fb32ac1",
+        "name": "ee494072-8268-4eec-9f30-73fb6d18963d",
         "fromTable": "Table2",
         "fromColumn": "Column1",
         "toTable": "Table1",
         "toColumn": "Column1",
         "state": "ready",
+<<<<<<< HEAD
         "modifiedTime": "2018-05-15T05:21:25.803333",
         "refreshedTime": "2018-05-15T05:21:32.966667"
+=======
+        "modifiedTime": "2018-05-15T05:18:11.096667",
+        "refreshedTime": "2018-05-15T05:18:11.096667"
+>>>>>>> origin/master
       },
       {
-        "name": "7ec673d1-5213-4d90-9cd5-0c36f9c14f80",
+        "name": "5306eb2b-1f4a-4216-b661-b42ab1085584",
         "fromTable": "Table2",
         "fromColumn": "Column1",
         "toTable": "Table3",
         "toColumn": "Column1",
         "state": "ready",
+<<<<<<< HEAD
         "modifiedTime": "2018-05-15T05:21:25.806667",
         "refreshedTime": "2018-05-15T05:21:32.18"
+=======
+        "modifiedTime": "2018-05-15T05:18:11.113333",
+        "refreshedTime": "2018-05-15T05:18:11.113333"
+>>>>>>> origin/master
       },
       {
-        "name": "207cf482-d057-4f68-8a57-1187789b135f",
+        "name": "5d2d9554-ad1d-435e-bd21-a8f433b33261",
         "fromTable": "Table2",
         "fromColumn": "Column1",
         "toTable": "Table4",
         "toColumn": "Column1",
         "state": "ready",
+<<<<<<< HEAD
         "modifiedTime": "2018-05-15T05:21:25.806667",
         "refreshedTime": "2018-05-15T05:21:32.126667"
+=======
+        "modifiedTime": "2018-05-15T05:18:11.113333",
+        "refreshedTime": "2018-05-15T05:18:11.113333"
+      },
+      {
+        "name": "d185b532-6c59-422f-9ab7-a312ffc73103",
+        "fromTable": "Table2",
+        "fromColumn": "Column1",
+        "toTable": "Table5",
+        "toColumn": "Column1",
+        "state": "ready",
+        "modifiedTime": "2018-05-15T05:18:44.32",
+        "refreshedTime": "2018-05-15T05:18:44.32"
+>>>>>>> origin/master
       }
     ],
     "annotations": [
       {
         "name": "__PBI_TimeIntelligenceEnabled",
         "value": "1",
+<<<<<<< HEAD
         "modifiedTime": "2018-05-15T05:21:25.606667"
+=======
+        "modifiedTime": "2018-05-15T05:18:03.06"
+>>>>>>> origin/master
       },
       {
         "name": "PBIDesktopVersion",
         "value": "2.58.5103.501 (PBIDesktop)",
+<<<<<<< HEAD
         "modifiedTime": "2018-05-15T05:21:25.606667"
+=======
+        "modifiedTime": "2018-05-15T05:18:03.06"
+>>>>>>> origin/master
       }
     ]
   }
