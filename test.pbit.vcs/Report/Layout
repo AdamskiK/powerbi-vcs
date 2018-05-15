@@ -489,6 +489,185 @@
               ]
             }
           }
+        },
+        {
+          "x": 877.0156555772994,
+          "y": 381.839530332681,
+          "z": 3,
+          "width": 402.9745596868884,
+          "height": 338.160469667319,
+          "config": {
+            "__powerbi-vcs-embedded-json__": {
+              "name": "1793a5a245435f8dd79c",
+              "layouts": [
+                {
+                  "id": 0,
+                  "position": {
+                    "x": 877.0156555772994,
+                    "y": 381.839530332681,
+                    "z": 3,
+                    "width": 402.9745596868884,
+                    "height": 338.160469667319
+                  }
+                }
+              ],
+              "singleVisual": {
+                "visualType": "card",
+                "projections": {
+                  "Values": [
+                    {
+                      "queryRef": "CountNonNull(Table5.Column1)"
+                    }
+                  ]
+                },
+                "prototypeQuery": {
+                  "Version": 2,
+                  "From": [
+                    {
+                      "Name": "t",
+                      "Entity": "Table5"
+                    }
+                  ],
+                  "Select": [
+                    {
+                      "Aggregation": {
+                        "Expression": {
+                          "Column": {
+                            "Expression": {
+                              "SourceRef": {
+                                "Source": "t"
+                              }
+                            },
+                            "Property": "Column1"
+                          }
+                        },
+                        "Function": 5
+                      },
+                      "Name": "CountNonNull(Table5.Column1)"
+                    }
+                  ],
+                  "OrderBy": [
+                    {
+                      "Direction": 2,
+                      "Expression": {
+                        "Aggregation": {
+                          "Expression": {
+                            "Column": {
+                              "Expression": {
+                                "SourceRef": {
+                                  "Source": "t"
+                                }
+                              },
+                              "Property": "Column1"
+                            }
+                          },
+                          "Function": 5
+                        }
+                      }
+                    }
+                  ]
+                },
+                "drillFilterOtherVisuals": true
+              }
+            }
+          },
+          "filters": {
+            "__powerbi-vcs-embedded-json__": []
+          },
+          "query": {
+            "__powerbi-vcs-embedded-json__": {
+              "Commands": [
+                {
+                  "SemanticQueryDataShapeCommand": {
+                    "Query": {
+                      "Version": 2,
+                      "From": [
+                        {
+                          "Name": "t",
+                          "Entity": "Table5"
+                        }
+                      ],
+                      "Select": [
+                        {
+                          "Aggregation": {
+                            "Expression": {
+                              "Column": {
+                                "Expression": {
+                                  "SourceRef": {
+                                    "Source": "t"
+                                  }
+                                },
+                                "Property": "Column1"
+                              }
+                            },
+                            "Function": 5
+                          },
+                          "Name": "CountNonNull(Table5.Column1)"
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "dataTransforms": {
+            "__powerbi-vcs-embedded-json__": {
+              "projectionOrdering": {
+                "Values": [
+                  0
+                ]
+              },
+              "queryMetadata": {
+                "Select": [
+                  {
+                    "Restatement": "Count of Column1",
+                    "Name": "CountNonNull(Table5.Column1)",
+                    "Type": 3
+                  }
+                ]
+              },
+              "visualElements": [
+                {
+                  "DataRoles": [
+                    {
+                      "Name": "Values",
+                      "Projection": 0,
+                      "isActive": false
+                    }
+                  ]
+                }
+              ],
+              "selects": [
+                {
+                  "displayName": "Count of Column1",
+                  "queryName": "CountNonNull(Table5.Column1)",
+                  "roles": {
+                    "Values": true
+                  },
+                  "type": {
+                    "category": null,
+                    "underlyingType": 260
+                  },
+                  "expr": {
+                    "Aggregation": {
+                      "Expression": {
+                        "Column": {
+                          "Expression": {
+                            "SourceRef": {
+                              "Entity": "Table5"
+                            }
+                          },
+                          "Property": "Column1"
+                        }
+                      },
+                      "Function": 5
+                    }
+                  }
+                }
+              ]
+            }
+          }
         }
       ],
       "displayOption": 1,
